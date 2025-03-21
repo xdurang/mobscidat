@@ -1,5 +1,5 @@
 # Données de mobilité
-# une ébauche de centre de ressources
+une ébauche de centre de ressources sur les données de mobilité initiée par le Cerema dans le cadre du projet MobSciDat Factory
 
 
 
