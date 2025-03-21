@@ -1,5 +1,6 @@
-site_name: Essai centre de ressouces données de mobilité avec mkdocs material
-site_url: https://sitename.example
+site_name: centre de ressouces données de mobilité V0
+site_url: https://cerema.github.io/mobscidat
+repo_url: https://github.com/CEREMA/mobscidat
 theme:
   name: material
   logo: assets/logo.png
