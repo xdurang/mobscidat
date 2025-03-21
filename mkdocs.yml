@@ -26,6 +26,8 @@ theme:
   features:
     - navigation.footer
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
