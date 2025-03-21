@@ -28,6 +28,13 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CEREMA/mobscidat
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
