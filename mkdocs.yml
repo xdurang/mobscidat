@@ -25,6 +25,7 @@ theme:
     code: Red Hat Mono
   features:
     - navigation.footer
+    - navigation.instant
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
