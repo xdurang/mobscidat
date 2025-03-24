@@ -7,11 +7,11 @@ title: Glossaire données massives
 source : 
 La [fiche "chapeau"  de la série 'Collecte et utilisation de données de mobilité pour la modélisation des déplacements'](https://www.cerema.fr/fr/centre-ressources/boutique/donnees-mobilite-modelisation-deplacements) du Cerema présente les principes des outils de modélisation, puis les types de données et les critères d'évaluation de ces données vis-à-vis de leur utilisation pour la modélisation.
 
-- **FCD (Floating Car Data)**:
+- **FCD ( Floating Car Data )**:
 
 Il s'agit de données de positionnement en temps réel collectées à partir de véhicules individuels, généralement via des systèmes de navigation par satellite ou des systèmes de positionnement par GPS. Ces données peuvent inclure la vitesse, la direction, l'emplacement et d'autres informations sur le trafic routier.
 
-- **FMD (Floating Mobile Data)**:
+- **FMD ( Floating Mobile Data )**:
 
 Ce terme est plus large et fait référence à des données de mobilité collectées à partir de sources mobiles autres que les véhicules, telles que les téléphones portables, les tablettes, les montres intelligentes, etc. Ces données peuvent inclure des informations sur la localisation, le comportement en ligne, les interactions sociales, etc.
 
