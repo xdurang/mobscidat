@@ -1,7 +1,7 @@
 ---
 title: Etudes générales 
 tags:
-  - etudes_generales
+- etudes_generales
 ---
 # Etudes générales sur un territoire ou France entière
 
