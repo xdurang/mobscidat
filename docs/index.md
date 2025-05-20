@@ -15,8 +15,5 @@ Ressources utiles (notamment le PAN transport, rapports du Cerema...), principau
 
 - état des lieux des data hubs / factories
 
-### mots-clés :
-<!-- material/tags -->
-
 Le site va largement évoluer maintenu dans les mois qui viennent, les contributions sont bienvenues !
 N'hésitez pas à nous contacter pour toute question ou suggestion.
