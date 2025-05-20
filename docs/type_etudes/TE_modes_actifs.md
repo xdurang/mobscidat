@@ -1,9 +1,9 @@
 ---
 title: Etudes concernant les modes actifs, vélo et marche 
 tags:
-  - modes_actifs
-  - vélo
-  - marche
+- modes_actifs
+- vélo
+- marche
 ---
 # Modes actifs
 
