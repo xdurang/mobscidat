@@ -7,72 +7,93 @@ tags:
 # les données de stationnement
 panorama et ressources utiles
 
-## introduction
-A l'interface entre les modes de transport, le stationnement est un outil majeur de gestion de l'espace public et de la demande de mobilité. Il impacte directement :
-◦ La congestion (temps de recherche de place)
-◦ L'attractivité des centres-villes et des pôles d'activité
-◦ Le report modal (vers les transports en commun, le vélo...)
-◦ L'équité d'accès (PMR, livraisons...)
-◦ Les finances locales (redevances)
-◦ L'aménagement urbain (emprise au sol)
-Cette fiche propose un rapide état des lieux des données de stationnement en France, des différents types de données, leurs usages potentiels, les difficultés actuelles et esquisser des pistes d'action collective pour mieux les collecter, les partager et les valoriser.
+### 1. Données de stationnement public
 
-### Types de données de stationnement
-1. Données sur l'Offre Statique (Inventaire) : Décrivent l'infrastructure existante.
-   ◦ Type de stationnement :
-   ▪ Voirie : Places le long des rues (payantes, zone bleue, livraison, PMR, VE, 2 roues, résidentiel...).
-   ▪ Ouvrages : Parkings souterrains ou en silo (publics, privés à usage public).
-   ▪ Enclos / Surface : Parkings de surface (publics, privés : centres commerciaux, entreprises...).
-   ▪ Parkings Relais (P+R).
-   ◦ Caractéristiques :
-   ▪ Géolocalisation précise (coordonnées des places ou des entrées/zones).
-   ▪ Nombre de places par catégorie (standard, PMR, VE avec/sans recharge, vélos, motos, covoiturage...).
-   ▪ Réglementation : Horaires d'accès/paiement, durée maximale autorisée, règles spécifiques (résidents...).
-   ▪ Tarification : Grilles tarifaires (horaire, journalier, abonnements), moyens de paiement acceptés.
-   ▪ Informations physiques : Gabarit (hauteur max), services (sécurité, toilettes, ascenseur...).
-2. Données sur l'Usage / Occupation (Dynamique) : Décrivent comment l'offre est utilisée.
-   ◦ Taux d'occupation / Disponibilité :
-   ▪ En temps réel (essentiel pour le guidage à la place).
-   ▪ Historique (pour analyse des tendances, prévisions).
-   ◦ Flux : Nombre d'entrées/sorties, rotations par place.
-   ◦ Durée moyenne/médiane de stationnement.
-   ◦ Données de paiement (agrégées et anonymisées) : Revenus générés, types de paiement utilisés.
-   ◦ Données de contrôle : Taux de respect de la réglementation, nombre de FPS (Forfaits Post-Stationnement) émis.
+*   **Données disponibles** :
+    *   Occupation des places de stationnement.
+    *   Tarification et recettes générées par le stationnement.
+    *   lieux de stationnement : https://doc.transport.data.gouv.fr/type-donnees/lieux-de-stationnement/stationnement-hors-voirie/normes-et-standard-schema-national-des-lieux-de-stationnement 
 
-### Usages
-La collecte et l'analyse fine des données de stationnement permettent de répondre à de nombreux besoins :
+*   **Acteurs concernés** :
+    *   Collectivités locales (communes, métropoles).
+    *   Entreprises comme Flowbird et Easypark.
+*   **Utilisation** :
+    *   Gestion du contrôle du stationnement.
+    *   Évaluation des amendes et amélioration de l’accessibilité pour les usagers.
+*   **Standards** :
+    *   Peu de standards uniformes en matière de collecte et d’analyse des données.
+    *   Initiatives existantes mais peu appliquées à grande échelle.
+*   **Améliorations à apporter** :
+    *   Centralisation des données sur une plateforme accessible.
+    *   Mise à jour régulière des bases de données.
+    *   Normalisation des indicateurs de performance.
+*   **Problèmes à résoudre** :
+    *   Manque de cohérence entre les réglementations des différentes communes.
+    *   Difficulté d’accès aux données pour les usagers, notamment concernant l’occupation des places.
 
-1. Pour les Collectivités et Planificateurs :
-        ◦ Pilotage stratégique : Adapter l'offre (quantité, type, localisation) aux besoins réels et aux objectifs de mobilité durable (ex: réduire la place de la voiture).
-        ◦ Optimisation de la réglementation et tarification : Influencer les comportements (report modal, rotation), améliorer l'équité, optimiser les recettes.
-        ◦ Gestion du trafic : Réduire le trafic de recherche (estimé à 20-30% du trafic en centre-ville) via l'information et le guidage.
-        ◦ Aménagement urbain : Libérer de l'espace public, planifier les besoins futurs (ex: déploiement des bornes de recharge).
-        ◦ Évaluation des politiques publiques : Mesurer l'impact des décisions prises.
-2. Pour les Opérateurs de Stationnement (Publics/Privés) :
-        ◦ Gestion opérationnelle : Optimisation des équipes, maintenance prédictive.
-        ◦ Performance économique : Ajustement des tarifs, développement de nouveaux services (réservation...).
-        ◦ Amélioration de l'expérience client.
-3. Pour les Usagers (via Applications de Mobilité / MaaS / SIG) :
-        ◦ Information en temps réel : Trouver une place disponible rapidement (voirie ou ouvrage), connaître le tarif, les horaires.
-        ◦ Guidage à la place.
-        ◦ Paiement simplifié et dématérialisé.
-        ◦ Planification de trajets multimodaux incluant le stationnement.
-4. Pour les Services de Contrôle :
-        ◦ Optimisation des tournées de contrôle.
-        ◦ Analyse de la fraude et du respect des règles.
-    
-## stationnement en voirie
+---
 
-## stationnement vélo
+### 2. Données de voirie
+
+*   **Données disponibles** :
+    *   Informations sur le marquage au sol, les passages piétons, et l’état général des infrastructures routières.
+*   **Acteurs concernés** :
+    *   Services municipaux responsables de la voirie.
+    *   Agences d’urbanisme et bureaux d’études.
+*   **Utilisation** :
+    *   Planification urbaine et évaluation de l’impact des aménagements sur la circulation et la sécurité.
+*   **Standards** :
+    *   Hétérogénéité dans les pratiques de collecte et de gestion des données selon les villes.
+*   **Améliorations à apporter** :
+    *   Développement d’un référentiel commun pour la gestion des données de voirie.
+    *   Intégration des données dans un système centralisé pour faciliter l’accès.
+*   **Problèmes à résoudre** :
+    *   Qualité des données géographiques souvent insuffisante.
+    *   Manque de coordination entre les différents services impliqués.
+
+---
+
+### 3. Données sur les aires de livraison et marchandises
+
+*   **Données disponibles** :
+    *   Règlementations relatives aux aires de livraison.
+    *   Informations sur l’utilisation des espaces dédiés aux livraisons.
+*   **Acteurs concernés** :
+    *   Commerçants et entreprises de logistique.
+    *   Municipalités qui régulent l’utilisation de l’espace public.
+*   **Utilisation** :
+    *   Optimisation de la gestion des livraisons en milieu urbain.
+    *   Amélioration de l’efficacité des opérations commerciales.
+*   **Standards** :
+    *   Absence de normes claires, ce qui complique la gestion intercommunale des aires de livraison.
+*   **Améliorations à apporter** :
+    *   Création d’une base de données partagée et standardisée pour les aires de livraison.
+    *   Harmonisation des règlementations entre communes.
+*   **Problèmes à résoudre** :
+    *   Incohérences réglementaires entre les différentes communes, rendant difficile la planification des livraisons.
+
+---
+
+### 4. Données sur l’électrification et les véhicules électriques
+
+*   **Données disponibles** :
+    *   Informations sur les bornes de recharge pour véhicules électriques et leur utilisation.
+*   **Acteurs concernés** :
+    *   Fournisseurs d’énergie et opérateurs de recharge.
+    *   Collectivités locales qui mettent en place l’infrastructure.
+*   **Utilisation** :
+    *   Encouragement de l’utilisation de véhicules électriques.
+    *   Amélioration de l’infrastructure de recharge pour répondre à la demande croissante.
+*   **Standards** :
+    *   Normes techniques existent mais sont peu appliquées dans la pratique.
+*   **Améliorations à apporter** :
+    *   Augmenter le nombre de points de recharge disponibles.
+    *   Assurer l’interopérabilité des systèmes de recharge entre différents fournisseurs.
+*   **Problèmes à résoudre** :
+    *   Accès limité aux données sur l’utilisation des bornes de recharge, ce qui complique la planification de nouvelles installations.## stationnement vélo
 https://doc.transport.data.gouv.fr/type-donnees/documentation-sur-le-stationnement-cyclable 
 https://transport.data.gouv.fr/datasets?type=bike-parking
 
-## stationnement en surface
-lieux de stationnement : https://doc.transport.data.gouv.fr/type-donnees/lieux-de-stationnement/stationnement-hors-voirie/normes-et-standard-schema-national-des-lieux-de-stationnement 
+### stationnement vélo et 2RM
 
-## stationnement en ouvrage
-
-## données publiées en open data
-
-
-## standards
+### standards
