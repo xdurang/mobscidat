@@ -1,7 +1,7 @@
 ---
-title: Types d'étude de voirie et espace public 
+title: Types d'étude pour la voirie et l'espace public 
 tags:
-  - voirie
+- voirie
 ---
 
 # Voirie et espace public
