@@ -1,3 +1,0 @@
----
-title: Type d'études
----
