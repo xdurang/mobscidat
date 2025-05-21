@@ -1,6 +1,6 @@
 
 ---
-title: .
+title: x
 ---
 On propose dans cette rubriques des pages thématiques fournissant infos et références concernant les principaux types de données utilisées dans les études.
 La rubrique sera complétée progressivement.
