@@ -64,7 +64,7 @@ nav:
   - Mots-clés: tags.md
   - Glossaires:
     - glossaire/glossaire.md
-    - Glossaire données massives: glossaire/donnees-massives.md
+    - Données massives: glossaire/donnees_massives.md
     - Floating car data:
       - FCD: glossaire/fcd/fcd.md
   - Types de données:
