@@ -66,9 +66,9 @@ nav:
     - Glossaire données massives: glossaire/donnees-massives.md
     - Floating car data:
       - FCD: glossaire/fcd/fcd.md
-  - Types de données:
+  - Types de données: types_donnees.md
     - stationnement : types_donnees/stationnement.md
-  - Types d'études:
+  - Types d'études: types_etudes.md
     - études générales: types_etudes/TE_general.md
     - transport collectif et train: types_etudes/TE_TC.md
     - transport scolaire: types_etudes/TE_scolaire.md
