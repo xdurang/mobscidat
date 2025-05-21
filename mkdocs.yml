@@ -62,13 +62,13 @@ plugins:
 nav:
   - Accueil: index.md
   - Mots-clés: tags.md
-  - Glossaires: 
+  - Glossaires: glossaire/glossaire.md
     - Glossaire données massives: glossaire/donnees-massives.md
     - Floating car data:
       - FCD: glossaire/fcd/fcd.md
-  - Types de données: types_donnees.md
+  - Types de données: types_donnees/types_donnees.md
     - stationnement : types_donnees/stationnement.md
-  - Types d'études: type_etudes.md
+  - Types d'études: type_etudes/type_etudes.md
     - études générales: type_etudes/TE_general.md
     - transport collectif et train: type_etudes/TE_TC.md
     - transport scolaire: type_etudes/TE_scolaire.md
