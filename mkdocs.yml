@@ -59,3 +59,27 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - tags
+nav:
+  - Accueil: index.md
+  - Mots-clés: tags.md
+  - Glossaires: 
+    - Glossaire données massives: glossaire-donnees-massives.md
+    - Floating car data: index.md
+      - FCD: fcd.md
+  - Types de données: types_donnees
+  - Types d'études: types_etude
+    - études générales: TE_general.md
+    - transport collectif et train: TE_TC.md
+    - transport scolaire: TE_scolaire.md
+    - pôles d'échange multimodaux: TE_PEM.md
+    - transports solidaires et accessibles: TE_access_soli.md
+    - voirie et l'espace public: TE_voirie.md
+    - modes actifs, vélo et marche: TE_modes_actifs.md
+    - trafic routier: TE_trafic.md
+    - services de mobilité partagée: TE_mobilite_partagee.md
+    - stationnement: TE_stationnement.md
+    - management de la mobilité: TE_management_mob.md
+    - sécurité routière et accidentologie: TE_accidento.md
+    - logistique urbaine: TE_logistique_urbaine.md
+    - décarbonation et électrification: TE_decarbo.md
+    - environnement: TE_environnement.md
