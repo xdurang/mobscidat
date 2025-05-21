@@ -63,24 +63,24 @@ nav:
   - Accueil: index.md
   - Mots-clés: tags.md
   - Glossaires: 
-    - Glossaire données massives: glossaire/glossaire-donnees-massives.md
+    - Glossaire données massives: glossaire/donnees-massives.md
     - Floating car data:
-      - FCD: glossaire/FCD/fcd.md
+      - FCD: glossaire/fcd/fcd.md
   - Types de données:
-    - stationnement : types_donnees/stationnement
+    - stationnement : types_donnees/stationnement.md
   - Types d'études:
-    - études générales: types_etude/TE_general.md
-    - transport collectif et train: types_etude/TE_TC.md
-    - transport scolaire: types_etude/TE_scolaire.md
-    - pôles d'échange multimodaux: types_etude/TE_PEM.md
-    - transports solidaires et accessibles: types_etude/TE_access_soli.md
-    - voirie et l'espace public: types_etude/TE_voirie.md
-    - modes actifs, vélo et marche: types_etude/TE_modes_actifs.md
-    - trafic routier: types_etude/TE_trafic.md
-    - services de mobilité partagée: types_etude/TE_mobilite_partagee.md
-    - stationnement: types_etude/TE_stationnement.md
-    - management de la mobilité: types_etude/TE_management_mob.md
-    - sécurité routière et accidentologie: types_etude/TE_accidento.md
-    - logistique urbaine: types_etude/TE_logistique_urbaine.md
-    - décarbonation et électrification: types_etude/TE_decarbo.md
-    - environnement: types_etude/TE_environnement.md
+    - études générales: types_etudes/TE_general.md
+    - transport collectif et train: types_etudes/TE_TC.md
+    - transport scolaire: types_etudes/TE_scolaire.md
+    - pôles d'échange multimodaux: types_etudes/TE_PEM.md
+    - transports solidaires et accessibles: types_etudes/TE_access_soli.md
+    - voirie et l'espace public: types_etudes/TE_voirie.md
+    - modes actifs, vélo et marche: types_etudes/TE_modes_actifs.md
+    - trafic routier: types_etudes/TE_trafic.md
+    - services de mobilité partagée: types_etudes/TE_mobilite_partagee.md
+    - stationnement: types_etudes/TE_stationnement.md
+    - management de la mobilité: types_etudes/TE_management_mob.md
+    - sécurité routière et accidentologie: types_etudes/TE_accidento.md
+    - logistique urbaine: type_etudes/TE_logistique_urbaine.md
+    - décarbonation et électrification: types_etudes/TE_decarbo.md
+    - environnement: types_etudes/TE_environnement.md
