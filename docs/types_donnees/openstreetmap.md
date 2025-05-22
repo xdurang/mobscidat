@@ -9,15 +9,18 @@ Le wiki de la communauté OpenStreetMap fournit beaucoup d'informations, le Cere
 Cette page recense plusieurs points d'entrée:
 
 #### OpenStreetMap
-https://forum.openstreetmap.fr/ pour échanger avec la communauté
+[https://forum.openstreetmap.fr/ pour échanger avec la communauté](https://forum.openstreetmap.fr/ pour échanger avec la communauté)
 toute la documentation de la communauté francophone est sur le wiki:
-https://wiki.openstreetmap.org/wiki/FR:Page_principale 
+[https://wiki.openstreetmap.org/wiki/FR:Page_principale](https://wiki.openstreetmap.org/wiki/FR:Page_principale) 
 
 * exemples de projet de données territoriales sur le thème de la mobilité:
 - Mob-Vercors : https://wiki.openstreetmap.org/wiki/Mobi-Vercors 
 - Région Sud-PACA base de données sur les infrastructures, le stationnement et les équipements et services à disposition des cyclistes (audit, collecte, constitution et mise à jour de la base) :
 https://connaissance-territoire.maregionsud.fr/la-plateforme/les-projets/base-de-donnees-velo-en-region-provence-alpes-cote-dazur
-https://wiki.openstreetmap.org/wiki/France/Donn%C3%A9es_v%C3%A9lo_en_R%C3%A9gion_Provence-Alpes-C%C3%B4te_d%27Azur 
+https://wiki.openstreetmap.org/wiki/France/Donn%C3%A9es_v%C3%A9lo_en_R%C3%A9gion_Provence-Alpes-C%C3%B4te_d%27Azur
+
+#### Licence
+Guide pratique "Tout savoir sur la licence ODbL" : https://fposm.fr/publication-du-guide-pratique-tout-savoir-sur-la-licence-odbl/ 
 
 #### Fabrique des Mobilités
 -    Présentation d'OSM avec des exemples d'utilisations en collectivités : https://wiki.lafabriquedesmobilites.fr/wiki/OpenStreetMap
