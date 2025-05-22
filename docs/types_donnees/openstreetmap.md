@@ -10,7 +10,7 @@ Le wiki de la communauté OpenStreetMap fournit beaucoup d'informations, le Cere
 Cette page recense plusieurs points d'entrée:
 
 #### OpenStreetMap
-[https://forum.openstreetmap.fr/ pour échanger avec la communauté](https://forum.openstreetmap.fr/ pour échanger avec la communauté)
+[https://forum.openstreetmap.fr/](https://forum.openstreetmap.fr/) pour échanger avec la communauté]
 
 toute la documentation de la communauté francophone est sur le wiki:
 [https://wiki.openstreetmap.org/wiki/FR:Page_principale](https://wiki.openstreetmap.org/wiki/FR:Page_principale) 
