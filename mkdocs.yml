@@ -69,6 +69,7 @@ nav:
       - FCD: glossaire/fcd/fcd.md
   - Types de données:
     - types_donnees/types_donnees.md
+    - OpenStreetMap : types_donnees/openstreetmap.md
     - stationnement : types_donnees/stationnement.md
   - Types d'études:
     - type_etudes/type_etudes.md
