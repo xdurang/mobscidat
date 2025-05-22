@@ -1,5 +1,7 @@
 ---
 title: OpenStreetMap
+tags:
+- OSM
 ---
 
 ## Les données openStreetMap pour le domaine des Mobilités
