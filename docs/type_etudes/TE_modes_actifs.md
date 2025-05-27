@@ -16,7 +16,7 @@ tags:
 - Intégration dans PDM, PCAET, PLUi, SCOT, ZFE
 - Programmation d’itinéraires structurants, jalonnement, zones apaisées
 
-## Exploitation / projet
+## Mise en oeuvre
 - Etudes d’infrastructures et aménagements cyclables / piétons (pistes, trottoirs, sas vélo)
 ou de stationnement vélo sécurisé, jalonnement, zones 30
 - Etude de pedibus / vélobus scolaires

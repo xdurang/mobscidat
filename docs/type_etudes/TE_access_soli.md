@@ -13,7 +13,7 @@ tags:
 - Plan d’action mobilité solidaire à l’échelle des bassins (Article 18 LOM)
 - Intégration dans les PDM / PCAET / PLUi des enjeux d’accessibilité universelle
 
-## Exploitation / projet
+## Mise en oeuvre
 - étude d’accessibilité des arrêts, pôles, interfaces intermodales, cheminements (article 27 LOM)
 
 ## évaluation

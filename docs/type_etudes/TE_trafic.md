@@ -14,7 +14,7 @@ tags:
 - Plans de circulation et de gestion du trafic
 - Planification de voies réservées ou de zones de régulation
 
-## Exploitation / projet
+## Mise en oeuvre
 - Réglage et coordination de plans de feux
 - Mise en œuvre de voies réservées, panneaux à messages variables, régulation dynamique
 - Requalification d’axes routiers ou giratoires

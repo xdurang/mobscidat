@@ -13,7 +13,7 @@ tags:
 ## planification
 - Intégration des pôles dans les SCOT, PLUi, PDM
 
-## Exploitation / projet
+## Mise en oeuvre
 - étude de conception ou requalification de pôles d’échange et services associés (stationnement vélo, covoiturage, info mobilité, jalonnement...)
 
 ## évaluation

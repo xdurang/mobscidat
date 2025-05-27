@@ -15,7 +15,7 @@ tags:
 - Études d’opportunité TCSP, schémas directeurs TC ou ferroviaires
 - Planification des pôles d’échanges intermodaux
 
-## Exploitation / projet
+## Mise en oeuvre
 - Renouvellement de flotte, extension de ligne, adaptation de l’offre
 - AMO DSP (rédaction de CCTP, suivi des contrats)
 - Déploiement d’équipements (SIV, billettique, info voyageur)

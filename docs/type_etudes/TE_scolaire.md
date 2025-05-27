@@ -14,7 +14,7 @@ tags:
 - Planification des dessertes en lien avec les cartes scolaires et la sectorisation
 - Intégration dans les démarches "rue des écoles"
 
-## Exploitation / projet
+## Mise en oeuvre
 - Organisation des circuits de transport scolaire (points d’arrêt, horaires, sécurité)
 - Réorganisation des lignes selon les besoins réels
 - Aménagement des abords d’établissements scolaires

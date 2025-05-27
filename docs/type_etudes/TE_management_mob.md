@@ -14,7 +14,7 @@ tags:
 - Intégration dans les PDM ou politiques de gestion de la demande
 - Programmation de leviers d’action (stationnement, incitations, télétravail, « bureau des heures »...)
 
-## Exploitation / projet
+## Mise en oeuvre
 - Etude de mise en oeuvre d’actions de management de la mobilité
 - Suivi d’expérimentations (covoiturage incitatif, navettes, horaires aménagés)
 

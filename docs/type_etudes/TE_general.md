@@ -28,7 +28,7 @@ tags:
 [https://documentsmarches.francemobilites.fr/Documents/22969895](https://documentsmarches.francemobilites.fr/Documents/22969895)
 → hors périmètre
 
-## Exploitation / projet
+## Mise en oeuvre
 - Pilotage d’actions transversales intégrant plusieurs services / modes / échelles
 - Suivi de la mise en œuvre des contrats opérationnels de mobilité (COM)
 - Coordination entre AOM, syndicats, partenaires ferroviaires

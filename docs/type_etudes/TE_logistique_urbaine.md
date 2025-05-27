@@ -14,7 +14,7 @@ tags:
 - Intégration des enjeux logistiques dans les SCOT, PDM, PLUi
 - Zonage des activités logistiques et régulation de l’espace public
 
-## Exploitation / projet
+## Mise en oeuvre
 - Aménagement ou reconversion de sites pour la logistique du dernier kilomètre
 - Organisation des aires de livraison, micro-hubs, casiers urbains
 - Réglementation d’accès (horaires, véhicules autorisés)

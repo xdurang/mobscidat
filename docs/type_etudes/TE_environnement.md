@@ -14,7 +14,7 @@ tags:
 - PCAET, ZFE-m, Intégration des enjeux environnementaux dans les PDM,
 - Cartes stratégiques bruit et qualité de l’air (directive européenne)
 
-## Exploitation / projet
+## Mise en oeuvre
 - études d’aménagements projets intégrant des objectifs environnementaux (dépollution, végétalisation, réduction bruit)
 - Projets d’infrastructures sobres ou bas-carbone
 

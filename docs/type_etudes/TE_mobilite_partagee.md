@@ -14,7 +14,7 @@ tags:
 - Programmation territoriale des services (zones de pertinence, intermodalité)
 - Intégration dans le PDM et lePLUi
 
-## Exploitation / projet
+## Mise en oeuvre
 - Dimensionnement d’un service de mobilité
 - étude d’un référentiel et de la tarification d’un service MaaS
 

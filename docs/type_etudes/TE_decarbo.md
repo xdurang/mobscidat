@@ -13,7 +13,7 @@ tags:
 - Schéma directeur IRVE (Article 68 LOM)
 - Intégration dans les PCAET, PDM, PLUi
 
-## Exploitation / projet
+## Mise en oeuvre
 - étude d’implantation de bornes de recharge (voirie, en dépôt)
 - Projets de zones à faibles émissions mobilité (ZFE-m)
 

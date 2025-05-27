@@ -15,7 +15,7 @@ tags:
 - Programmation d’actions issues des diagnostics de sécurité routière dans les contrats opérationnels de mobilité ou les plans de circulation
 - Volet sécurité des Plans de Déplacements d’Établissement Scolaire (PDES), Plans Rue des écoles
 
-## Exploitation / projet
+## Mise en oeuvre
 - étude de dispositifs correctifs : sécurisation abords écoles, aménagements de voirie, limitation vitesse, giratoires
 - étude de sécurisation de tronçons accidentogènes ou d’intersections critiques
 - Outils de régulation et d’alerte : jalonnement dynamique, analyse temps réel via capteurs

@@ -14,7 +14,7 @@ tags:
 - Plans d’Accessibilité (PAVE)
 - Définition de profils de voirie selon les fonctions urbaines (hiérarchisation, apaisement, multimodalité)
 
-## Exploitation / projet
+## Mise en oeuvre
 - études de requalification d’espaces publics et mise en accessibilité : trottoirs, carrefours, traversées piétonnes
 
 ## évaluation

@@ -15,7 +15,7 @@ tags:
 - Intégration des objectifs de stationnement dans les PDM, PLUi, SCOT
 - Programmation des zones à réguler (résidentiel, voirie, parkings relais)
 
-## Exploitation / projet
+## Mise en oeuvre
 - Réaménagement ou création d’aires de stationnement (rues, pôles, P+R)
 - Définition ou révision de la tarification (zonage, durée, usagers)
 - Déploiement de dispositifs de contrôle ou de réservation
