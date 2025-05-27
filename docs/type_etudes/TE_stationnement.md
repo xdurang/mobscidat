@@ -1,7 +1,7 @@
 ---
-- title : types d'étude sur le stationnement
-- tags:
-  - stationnement
+title : types d'étude sur le stationnement
+tags:
+- stationnement
 ---
 
 # Stationnement
