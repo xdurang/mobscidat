@@ -6,8 +6,8 @@ tags:
 
 ## Les données openStreetMap pour le domaine des Mobilités
 
-OpenStreetMap est une source opendata intéressante pour recueillir des données de mobilité, très utilisée entre autre la communauté Vélo, mais elle est parfois difficile à appréhender (collecte, traitement, exhaustivité, limites…), selon les cas d'usage.  
-Le wiki de la communauté OpenStreetMap fournit beaucoup d'informations, le Cerema avait également produit des rapports il y a plusieurs années et plus récemment la Fabrique des Mobilités a fait un travail important d'accompagnement autour d'OSM.
+OpenStreetMap est une source opendata intéressante pour recueillir des données de mobilité, très utilisée entre autres par la communauté Vélo, mais elle est parfois difficile à appréhender (collecte, traitement, exhaustivité, limites…), selon les cas d'usage.  
+Le wiki de la communauté OpenStreetMap fournit beaucoup d'informations, le Cerema avait également produit des rapports sur les OSM pour les transports et la voirie ([un 1er en 2009](https://www.expertises-territoires.fr/upload/docs/application/pdf/2025-05/rapport-osm-cetemed-2009.pdf), [un second en 2016](https://www.expertises-territoires.fr/upload/docs/application/pdf/2025-05/osm_services_publics_-_cerema-2016.pdf)) et  il y a plusieurs années et plus récemment la Fabrique des Mobilités a fait un travail important d'accompagnement autour d'OSM.
 
 Cette page recense plusieurs points d'entrée:
 
