@@ -152,6 +152,4 @@ Les données d'usage sont les données mesurées ou historisées d'occupation, r
 Les collectivités gestionnaires de voirie et AOM sont amenés à compléter régulièrement leurs données concernant le stationnement, au moyen d'enquêtes, et de comptage (utilisant de plus en plus des systèmes automatisés utilisant des prises de vue embarquées, même si pour l'instant l'utilisation des véhicules de verbalisation par LAPI ne semble pas encore possible pour le recueil de données).
 
 L'utilisation de photos aériennes (PCRS à 5cm) satellitaires (à 20 cm) permet d'identifier les parcs voir les places de stationnement, mais ne semble pas généralisée. L'utilisation de prises de vue au niveau de la voirie (type panoramax) permettrait de compléter la donnée.
-### stationnement vélo et 2RM
 
-### standards
