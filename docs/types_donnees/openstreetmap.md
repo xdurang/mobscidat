@@ -6,7 +6,7 @@ tags:
 
 ## Les données openStreetMap pour le domaine des Mobilités
 
-OpenStreetMap est une source opendata intéressante pour recueillir des données de mobilité, très utilisée entre autres par la communauté Vélo, mais elle est parfois difficile à appréhender (collecte, traitement, exhaustivité, limites…), selon les cas d'usage.  
+OpenStreetMap est une source opendata intéressante pour recueillir des données de mobilité, très utilisée entre autres [par la communauté Vélo](#vélo), mais elle est parfois difficile à appréhender (collecte, traitement, exhaustivité, limites…), selon les cas d'usage.  
 Le wiki de la communauté OpenStreetMap fournit beaucoup d'informations, le Cerema avait également produit des rapports sur les OSM pour les transports et la voirie ([un 1er en 2009](https://www.expertises-territoires.fr/upload/docs/application/pdf/2025-05/rapport-osm-cetemed-2009.pdf), [un second en 2016](https://www.expertises-territoires.fr/upload/docs/application/pdf/2025-05/osm_services_publics_-_cerema-2016.pdf)) et  il y a plusieurs années et plus récemment la Fabrique des Mobilités a fait un travail important d'accompagnement autour d'OSM.
 
 Cette page recense plusieurs points d'entrée:
@@ -17,7 +17,7 @@ Cette page recense plusieurs points d'entrée:
 toute la documentation de la communauté francophone est sur le wiki:
 [https://wiki.openstreetmap.org/wiki/FR:Page_principale](https://wiki.openstreetmap.org/wiki/FR:Page_principale) 
 
-**exemples de projet de données territoriales sur le thème de la mobilité:**
+#### exemples de projet de données territoriales sur le thème de la mobilité:
 - *Mob-Vercors* : [https://wiki.openstreetmap.org/wiki/Mobi-Vercors](https://wiki.openstreetmap.org/wiki/Mobi-Vercors)
 
 - *Région Sud-PACA*  Base de données sur les infrastructures, le stationnement et les équipements et services à disposition des cyclistes (audit, collecte, constitution et mise à jour de la base) :
@@ -25,6 +25,20 @@ toute la documentation de la communauté francophone est sur le wiki:
 [https://wiki.openstreetmap.org/wiki/France/Donn%C3%A9es_v%C3%A9lo_en_R%C3%A9gion_Provence-Alpes-C%C3%B4te_d%27Azur](https://wiki.openstreetmap.org/wiki/France/Donn%C3%A9es_v%C3%A9lo_en_R%C3%A9gion_Provence-Alpes-C%C3%B4te_d%27Azur)
 
 DataSud.fr propose une extraction quotidienne des données OSM, par thématiques métiers, dont pour Mobilité/Transport: Transport par câble, Aéroport, Aménagement cyclable, Routes, Mobilité maritime, Parc relais, Transport public, Voies ferrées, Remontées mécaniques, Itinéraires, Itinéraire cyclable : [https://www.datasud.fr/portal/collections/osm_flux](https://www.datasud.fr/portal/collections/osm_flux)
+
+#### vélo
+La communauté Vélo utilise et contribue beaucoup à OSM comme source de données. Le PAN transport.data.gouv.fr et l'association Vélo & Territoires ont travaillé sur des schéma de données, notammant source principale :
+
+- la Base Nationale des Aménagements Cyclables (BNAC) :  
+        schéma de données: [https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables/0.3.3/](https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables/0.3.3/)  
+        l'application Géovélo publie mensuellement les données OSM converties au format BNAC : [https://www.data.gouv.fr/fr/datasets/amenagements-cyclables-france-metropolitaine/](https://www.data.gouv.fr/fr/datasets/amenagements-cyclables-france-metropolitaine/)  
+        les collectivités publient également leurs données : [https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-amenagements-cyclables](https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-amenagements-cyclables)
+  
+ - la Base Nationale du Stationnement Cyclable (BNSC) :  
+        schéma de données : [https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable](https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable)  
+        OSM publie ses données au format BNSC : [https://www.data.gouv.fr/fr/datasets/stationnements-cyclables-issus-dopenstreetmap/](https://www.data.gouv.fr/fr/datasets/stationnements-cyclables-issus-dopenstreetmap/)  
+        les collectivités aussi : [https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable](https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable)  
+
 
 #### Licence
 Guide pratique "Tout savoir sur la licence ODbL" : [https://fposm.fr/publication-du-guide-pratique-tout-savoir-sur-la-licence-odbl/](https://fposm.fr/publication-du-guide-pratique-tout-savoir-sur-la-licence-odbl) 
