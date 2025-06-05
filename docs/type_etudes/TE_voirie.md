@@ -30,7 +30,7 @@ tags:
 - apport ponctuel d'expertise (avis, contrôle extérieur, recommandations pour tel ou tel aménagement…)
 - capitalisation de REX ou de bonnes pratiques (ex : parangonnage, enquête et analyse de REX...)
 
-## Recueil de données
+## recueil de données
 - Achat FCD, microcartographie Openstreetmap des objets et mobiliers urbains, PCRS, photographies immersives panoramax-France 360, videos de flux sur sites à enjeux (ronds points, tunnels, passages-piétons, etc.)
 - Focus groups, atelier d’intelligence collective avec les usagers
 - Analyse de performance des capteurs
