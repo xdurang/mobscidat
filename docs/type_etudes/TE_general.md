@@ -33,8 +33,5 @@ tags:
 - Sensibilisation des élus et partenaires
 (de manière générale, pour toute la colonne : expertise et avis technique)
 
-## Recueil de données
+## recueil de données
 - Enquêtes de mobilité (EMC2, EGT, EMP…) et baromètres
-
-*Etude et analyse des flux par géolocalisation des données issues des téléphones portables sur le territoire de Montpellier Méditerranée Métropole*
-[https://documentsmarches.francemobilites.fr/Documents/25213278](https://documentsmarches.francemobilites.fr/Documents/25213278)
