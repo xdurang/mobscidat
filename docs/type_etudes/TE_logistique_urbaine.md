@@ -4,6 +4,7 @@ tags:
 - logistique
 ---
 # Logistique urbaine
+Les études sur la logistique urbaine visent à analyser et organiser les flux de marchandises en milieu urbain, en conciliant performance économique, qualité de service et réduction des nuisances. Elles portent sur les pratiques de livraison, les besoins des professionnels, l’occupation de l’espace public, ainsi que les impacts environnementaux et sociaux. Ces études permettent d’identifier des leviers d’action pour optimiser les circuits logistiques, adapter les infrastructures, réguler les usages et favoriser des solutions plus durables, comme la mutualisation ou la décarbonation des livraisons. 
 
 ## modélisation
 - Simulation des flux de livraisons et de leurs impacts (congestion, émissions)
