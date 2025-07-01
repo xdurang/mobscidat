@@ -4,6 +4,7 @@ tags:
 - CO2
 ---
 # Décarbonation et électrification
+Les études sur la décarbonation et l’électrification des mobilités visent à évaluer les besoins en infrastructures (bornes de recharge, réseaux), analyser les usages et les freins à la transition, et de définir des stratégies adaptées aux contextes territoriaux. Ces études accompagnent les politiques climatiques et énergétiques, en soutenant le verdissement progressif des flottes publiques, privées ou partagées. 
 
 ## modélisation
 - Modélisation de scénarios de déploiement d’infrastructures de recharge (IRVE)
