@@ -4,7 +4,7 @@ tags:
 - accessibilite
 - transport_solidaire
 ---
-# Handicap/Solidarité
+Mobilité inclusive et solidaire
 Ces études s’attachent à analyser l’accessibilité des services de mobilité pour les personnes en situation de handicap, les publics fragiles ou les populations isolées. Elles visent à identifier les obstacles à la mobilité, évaluer l’offre existante et proposer des solutions adaptées, qu’il s’agisse d’aménagements, de services spécifiques ou de dispositifs d’accompagnement. Ces études contribuent à garantir le droit à la mobilité pour tous, dans une logique d’équité, d’inclusion sociale et de solidarité territoriale. 
 
 ## modélisation
