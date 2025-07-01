@@ -5,7 +5,7 @@ tags:
 ---
 # Décarbonation et électrification
 Les études sur la décarbonation et l’électrification des mobilités visent à évaluer les besoins en infrastructures (bornes de recharge, réseaux), analyser les usages et les freins à la transition, et de définir des stratégies adaptées aux contextes territoriaux. Ces études accompagnent les politiques climatiques et énergétiques, en soutenant le verdissement progressif des flottes publiques, privées ou partagées. 
-
+[Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude+service&l_property.FMCode.PublicContractClass.natureOfPrestations_string=25&l_property.FMCode.PublicContractClass.metierIndex_string=20&text=D%C3%A9carbonation+%C3%A9lectrification)
 ## modélisation
 - Modélisation de scénarios de déploiement d’infrastructures de recharge (IRVE)
 - Estimation de la demande future en véhicules électriques ou à hydrogène
