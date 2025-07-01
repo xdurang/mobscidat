@@ -74,7 +74,7 @@ nav:
     - stationnement : types_donnees/stationnement.md
   - Types d'études:
     - type_etudes/type_etudes.md
-    - Catégorie: categorie.md
+    - Catégorie: type_etudes/categorie.md
     - exemples: type_etudes/TE_exemples.md
     - études générales: type_etudes/TE_general.md
     - transport collectif et train: type_etudes/TE_TC.md
