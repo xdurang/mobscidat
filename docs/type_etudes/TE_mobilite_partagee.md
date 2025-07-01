@@ -3,7 +3,9 @@ title: type d'études sur les services de mobilité partagée
 tags:
 - mobilite_partagee
 ---
-# Services de mobilité
+# Services de mobilité partagée et MaaS
+Les études sur les services de mobilité portent sur les offres alternatives ou complémentaires aux modes traditionnels, comme l’autopartage, le covoiturage, les vélos ou trottinettes en libre-service, les services à la demande, ou encore les plateformes numériques de mobilité (MaaS). Elles visent à analyser les usages, les modèles économiques, l’intégration avec les autres réseaux et les conditions de mise en œuvre. Ces études permettent d’évaluer la pertinence de ces services selon les contextes territoriaux, d’identifier les leviers de développement, et d’accompagner l’innovation au service d’une mobilité plus inclusive et durable. 
+Comme pour le transport public, on recense ici uniquement les études, donc pour les services numériques MaaS notamment, cela ne comprend pas la mise en œuvre de ces services.
 
 ## modélisation
 - Modélisation de l’offre et de la demande sur les services partagés ( VLS, trottinettes, autopartage, Transport à la Demande, covoiturage...)
