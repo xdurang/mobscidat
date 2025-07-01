@@ -4,6 +4,7 @@ tags:
 - scolaire
 ---
 # Transport scolaire
+Les études sur le transport scolaire visent à organiser, adapter et optimiser les services de transport dédiés aux élèves, en tenant compte des besoins des établissements, des contraintes territoriales et des profils des usagers. Elles permettent d’analyser les itinéraires, la fréquentation, les coûts, ainsi que la qualité du service rendu. Ces études contribuent à garantir l’accès à l’éducation dans de bonnes conditions de sécurité, d’efficacité et d’équité, tout en articulant le transport scolaire avec les autres offres de mobilité du territoire. 
 
 ## modélisation
 - Modélisation des besoins futurs à partir des données démographiques et scolaires
