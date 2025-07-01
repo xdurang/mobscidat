@@ -6,7 +6,7 @@ tags:
 
 # Stationnement
 Les études sur le stationnement visent à analyser l’offre, la demande et les usages liés au stationnement des véhicules, qu’il s’agisse de voitures, de deux-roues motorisés, de livraisons ou de vélos. Elles permettent d’évaluer la répartition spatiale, les taux d’occupation, les besoins spécifiques selon les publics ou les temporalités, ainsi que les impacts sur la circulation, l’attractivité ou l’usage de l’espace public. Ces études accompagnent souvent les politiques de régulation, de tarification ou de réaménagement urbain, et participent à une gestion plus rationnelle et durable de l’espace. 
-
+[Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude%20service&l_property.FMCode.PublicContractClass.natureOfPrestations_string=35&l_property.FMCode.PublicContractClass.metierIndex_string=30&text=stationnement&f_property.FMCode.PublicContractClass.metierIndex_string=Stationnement)
 ## modélisation
 - Modélisation de la demande en stationnement selon les usages et typologies urbaines
 - Simulation d’impacts de mesures tarifaires ou de limitation d’offre
