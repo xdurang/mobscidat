@@ -5,6 +5,9 @@ tags:
 - train
 ---
 # Transport public et train
+Les études portant sur le transport public et le train ont pour objectif d’analyser l’offre, la fréquentation, les besoins des usagers et les performances des réseaux de transports collectifs, qu’ils soient urbains, interurbains ou ferroviaires. Elles permettent d’évaluer la cohérence de l’offre avec la demande, d’identifier les points de dysfonctionnement ou de sous-utilisation, et de guider les décisions en matière d’aménagement, de tarification ou de service, et planifier et dimensionner de nouvelles offres. Ces études jouent un rôle central dans l’amélioration de l’attractivité des transports collectifs et dans la transition vers une mobilité plus durable.
+Nous avons inclus le train dans le métier transport public pour simplifier et parce que du point de vue de la mobilité, le train est un service de transport public, étant entendu qu’il s’agit d’un domaine métier en soit, si on considère l’ensemble du ferroviaire (infrastructures, exploitation, etc.).
+Il est à noter aussi qu’un part importante des études de transport public (surtout les plus opérationnelles) est réalisée par les opérateurs et n’apparaît qu’à la marge dans la base des marchés publics de France Mobilités. (Ce sera le cas également pour les services de mobilité partagée ou le stationnement, où les opérateurs réalisent une large part des études).
 
 ## modélisation
 - Simulation de réseaux TCSP, modélisation de la fréquentation
