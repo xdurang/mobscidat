@@ -1,5 +1,4 @@
-e---
-title: pôles d'échange multimodaux
+title : pôles d'échange multimodaux
 tags:
 - intermodalité
 ---
