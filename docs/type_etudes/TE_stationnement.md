@@ -5,6 +5,7 @@ tags:
 ---
 
 # Stationnement
+Les études sur le stationnement visent à analyser l’offre, la demande et les usages liés au stationnement des véhicules, qu’il s’agisse de voitures, de deux-roues motorisés, de livraisons ou de vélos. Elles permettent d’évaluer la répartition spatiale, les taux d’occupation, les besoins spécifiques selon les publics ou les temporalités, ainsi que les impacts sur la circulation, l’attractivité ou l’usage de l’espace public. Ces études accompagnent souvent les politiques de régulation, de tarification ou de réaménagement urbain, et participent à une gestion plus rationnelle et durable de l’espace. 
 
 ## modélisation
 - Modélisation de la demande en stationnement selon les usages et typologies urbaines
