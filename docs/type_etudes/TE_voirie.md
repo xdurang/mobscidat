@@ -5,6 +5,7 @@ tags:
 ---
 
 # Voirie et espace public
+Les études relevant de la voirie et de l’espace public s’intéressent à l’organisation physique des déplacements, à la qualité des aménagements urbains et à la répartition de l’espace entre les différents usages. Elles visent à adapter les infrastructures aux besoins de mobilité, à améliorer la sécurité, la lisibilité et le confort des usagers, tout en prenant en compte les enjeux de partage de l’espace, d’accessibilité et d’environnement urbain. Ces études accompagnent souvent les projets d’aménagement, les diagnostics de fonctionnement ou les réflexions sur les usages futurs de l’espace public.
 
 ## modélisation
 - Modélisation d’impacts d’aménagements de voirie sur les flux et conflits d’usage (auto, piétons, cycles)
