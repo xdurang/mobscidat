@@ -4,6 +4,7 @@ tags:
 - management_mobilite
 ---
 # Management des mobilités
+Le management de la mobilité renvoie à diverses stratégies visant à changer les comportements de mobilité (comment, pourquoi, où et quand les personnes se déplacent). Les études liées au management des mobilités s’intéressent à la gouvernance, à la coordination des acteurs, et à la mise en œuvre opérationnelle des politiques de mobilité, notamment à la mobilité en entreprise. Ce type d’études permet d’accompagner les acteurs dans la structuration de démarches stratégiques, comme les plans de mobilité employeurs ou les outils de gestion de la demande.
 
 ## modélisation
 - Modélisation des effets des politiques de report modal (auto → modes actifs / TC)
