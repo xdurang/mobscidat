@@ -6,6 +6,7 @@ tags:
 - marche
 ---
 # Modes actifs
+Les études sur les modes actifs portent sur la marche et le vélo, en tant que modes de déplacement à part entière. Elles visent à analyser les pratiques, les besoins et les freins à l’usage, ainsi qu’à identifier les leviers d’action pour favoriser leur développement. Ces études peuvent concerner la continuité et la qualité des itinéraires, la sécurité, le stationnement, ou encore l’articulation avec les autres modes de transport. Elles s’inscrivent souvent dans des démarches de transition écologique et de revalorisation de l’espace public. 
 
 ## modélisation
 - Simulation des flux cyclistes et piétons (conflits d’usage, niveaux de service)
