@@ -4,6 +4,7 @@ tags:
 - trafic
 ---
 # Trafic routier
+Les études sur le trafic routier visent à analyser les flux de véhicules, leur intensité, leur répartition dans le temps et l’espace, ainsi que les phénomènes de congestion ou de saturation. Elles permettent de comprendre les dynamiques de circulation, d’anticiper les évolutions de la demande et d’évaluer l’efficacité des aménagements ou des régulations mises en place. Ces études sont essentielles pour orienter les choix d’infrastructure, optimiser les conditions de déplacement et réduire les impacts environnementaux ou sociaux liés au trafic. 
 
 ## modélisation
 - Simulation dynamique du trafic (flux, congestions)
