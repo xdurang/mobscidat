@@ -7,6 +7,8 @@ tags:
 # Accidentologie/Sécurité routière
 Les études en accidentologie et sécurité routière ont pour objectif de mieux comprendre les causes et les circonstances des accidents, d’identifier les zones à risque, et de proposer des mesures pour améliorer la sécurité de tous les usagers. Elles s’appuient sur l’analyse des données d’accidents, l’observation des comportements ou encore l’évaluation des aménagements existants. Ces études permettent d’orienter les politiques de prévention, d’adapter les infrastructures et de cibler les actions de sensibilisation ou d’éducation à la sécurité routière. 
 [Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude+service&l_property.FMCode.PublicContractClass.natureOfPrestations_string=25&l_property.FMCode.PublicContractClass.metierIndex_string=20&text=accidentologie+s%C3%A9curit%C3%A9+routi%C3%A8re)
+## _Exemples de prestataires_
+[Inddigo](https://www.inddigo.com/fr/expertises/mobilite/) / [Aximum](https://www.aximum.com/metiers) / [Betem Infra](https://www.betem.fr/infra) / [Iprocia](https://www.iprocia.fr/)
 
 ## modélisation
 - Simulation des impacts d’aménagements sur les vitesses, les trajectoires, les conflits d’usage
