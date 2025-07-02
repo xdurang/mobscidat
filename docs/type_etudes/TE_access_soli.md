@@ -7,6 +7,8 @@ tags:
 # Mobilité inclusive et solidaire
 Ces études s’attachent à analyser l’accessibilité des services de mobilité pour les personnes en situation de handicap, les publics fragiles ou les populations isolées. Elles visent à identifier les obstacles à la mobilité, évaluer l’offre existante et proposer des solutions adaptées, qu’il s’agisse d’aménagements, de services spécifiques ou de dispositifs d’accompagnement. Ces études contribuent à garantir le droit à la mobilité pour tous, dans une logique d’équité, d’inclusion sociale et de solidarité territoriale.
 [Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude+service&l_property.FMCode.PublicContractClass.natureOfPrestations_string=25&l_property.FMCode.PublicContractClass.metierIndex_string=20&text=Handicap+ou+solidaire+ou+inclusive)
+## _Exemples de prestataires_
+[6T](https://www.6-t.co/nos-references/etudes) / [Kisio](https://kisio.com/metiers/etudes-conseils/) / [Mobilians](https://www.mobilians.fr) / [Axurban](http://www.axurban.com/)
 
 ## modélisation
 - Modélisation de l’accessibilité aux services essentiels (santé, emploi, éducation) pour les publics vulnérables
