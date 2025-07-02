@@ -5,6 +5,8 @@ tags:
 ---
 # Etudes générales sur un territoire ou France entière
 Cette catégorie regroupe les études qui portent sur une approche globale de la mobilité à l’échelle d’un territoire, qu’il s’agisse d’une commune, d’un groupement de collectivités, d’un département, d’une région, d’un bassin de déplacements couvrant plusieurs collectivités (y compris en trans-frontalier) ou du niveau national. Elles permettent de mieux comprendre les dynamiques territoriales, les pratiques de déplacement et les enjeux de mobilité dans leur ensemble. Ces études servent généralement de socle aux stratégies de planification ou d’évaluation, en offrant une vision d’ensemble nécessaire à la cohérence des politiques publiques de mobilité. 
+## _Exemples de prestataires_
+[Citec](https://www.citec.ch/) / [A2i Infra](https://www.a2i-infra.fr/) / [Sector Group](https://www.sector-group.net/) / [Egis](https://www.egis-group.com/fr)
 
 ## modélisation
 - Modélisation multimodale à l’échelle d’un bassin de mobilité
