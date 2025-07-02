@@ -6,6 +6,9 @@ tags:
 # Logistique urbaine
 Les études sur la logistique urbaine visent à analyser et organiser les flux de marchandises en milieu urbain, en conciliant performance économique, qualité de service et réduction des nuisances. Elles portent sur les pratiques de livraison, les besoins des professionnels, l’occupation de l’espace public, ainsi que les impacts environnementaux et sociaux. Ces études permettent d’identifier des leviers d’action pour optimiser les circuits logistiques, adapter les infrastructures, réguler les usages et favoriser des solutions plus durables, comme la mutualisation ou la décarbonation des livraisons. 
 [Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude+service&l_property.FMCode.PublicContractClass.natureOfPrestations_string=25&l_property.FMCode.PublicContractClass.metierIndex_string=20&text=Logistique+urbaine)
+## _Exemples de prestataires_
+[Katalii](https://www.katalii.com/katalii-sengage-pour-un-transport-plus-responsable/pole-conseil) / [Citylog](https://citylog.fr/metiers-logistique-urbaine) / [Jonction](https://www.jonction.org/nos-domaines-dintervention) / [Yélé](https://www.yele.fr/nos-secteurs/transport-et-mobilite/)
+
 ## modélisation
 - Simulation des flux de livraisons et de leurs impacts (congestion, émissions)
 - Modèles de localisation optimale pour les espaces logistiques urbains (ELU, ULS, hubs)
