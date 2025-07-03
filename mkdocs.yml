@@ -74,7 +74,7 @@ nav:
     - outils open source: types_donnees/opensource.md
     - OpenStreetMap : types_donnees/openstreetmap.md
     - stationnement : types_donnees/stationnement.md
-  - Type d'études:
+  - Types d'études:
     - Typologie: type_etudes/type_etudes.md
     - Catégorie: type_etudes/categorie.md
     - exemples: type_etudes/TE_exemples.md
