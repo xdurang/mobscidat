@@ -79,6 +79,7 @@ nav:
     - exemples: type_etudes/TE_exemples.md
     - études générales: type_etudes/TE_general.md
     - Métiers
+    - Test :
         - transport collectif et train: type_etudes/TE_TC.md
         - transport scolaire: type_etudes/TE_scolaire.md
         - pôles d'échange multimodaux: type_etudes/TE_PEM.md
@@ -93,4 +94,4 @@ nav:
         - logistique urbaine: type_etudes/TE_logistique_urbaine.md
         - décarbonation et électrification: type_etudes/TE_decarbo.md
         - environnement: type_etudes/TE_environnement.md
-        - test
+    
