@@ -25,6 +25,8 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.footer
     - navigation.instant
     - navigation.sections
