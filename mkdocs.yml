@@ -79,17 +79,17 @@ nav:
     - exemples: type_etudes/TE_exemples.md
     - études générales: type_etudes/TE_general.md
     - Métiers
-      - transport collectif et train: type_etudes/TE_TC.md
-      - transport scolaire: type_etudes/TE_scolaire.md
-      - pôles d'échange multimodaux: type_etudes/TE_PEM.md
-      - transports solidaires et accessibles: type_etudes/TE_access_soli.md
-      - voirie et l'espace public: type_etudes/TE_voirie.md
-      - modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
-      - trafic routier: type_etudes/TE_trafic.md
-      - services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
-      - stationnement: type_etudes/TE_stationnement.md
-      - management de la mobilité: type_etudes/TE_management_mob.md
-      - sécurité routière et accidentologie: type_etudes/TE_accidento.md
-      - logistique urbaine: type_etudes/TE_logistique_urbaine.md
-      - décarbonation et électrification: type_etudes/TE_decarbo.md
-      - environnement: type_etudes/TE_environnement.md
+        - transport collectif et train: type_etudes/TE_TC.md
+        - transport scolaire: type_etudes/TE_scolaire.md
+        - pôles d'échange multimodaux: type_etudes/TE_PEM.md
+        - transports solidaires et accessibles: type_etudes/TE_access_soli.md
+        - voirie et l'espace public: type_etudes/TE_voirie.md
+        - modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
+        - trafic routier: type_etudes/TE_trafic.md
+        - services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
+        - stationnement: type_etudes/TE_stationnement.md
+        - management de la mobilité: type_etudes/TE_management_mob.md
+        - sécurité routière et accidentologie: type_etudes/TE_accidento.md
+        - logistique urbaine: type_etudes/TE_logistique_urbaine.md
+        - décarbonation et électrification: type_etudes/TE_decarbo.md
+        - environnement: type_etudes/TE_environnement.md
