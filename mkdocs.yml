@@ -75,7 +75,7 @@ nav:
     - OpenStreetMap : types_donnees/openstreetmap.md
     - stationnement : types_donnees/stationnement.md
   - Types d'études:
-    - type_etudes/type_etudes.md
+    - Typologie: type_etudes/type_etudes.md
     - Catégorie: type_etudes/categorie.md
     - exemples: type_etudes/TE_exemples.md
     - études générales: type_etudes/TE_general.md
