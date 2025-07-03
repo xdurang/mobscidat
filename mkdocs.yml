@@ -27,13 +27,11 @@ theme:
   features:
     - navigation.footer
     - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.top
-    - navigation.sections
     - navigation.expand
+    - navigation.sections
 extra:
   social:
     - icon: fontawesome/brands/github
