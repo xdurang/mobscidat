@@ -32,6 +32,8 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.top
+    - navigation.sections
+    - navigation.expand
 extra:
   social:
     - icon: fontawesome/brands/github
