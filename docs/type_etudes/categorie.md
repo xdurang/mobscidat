@@ -16,5 +16,5 @@ Les études d’observation permettent de suivre dans le temps l’évolution de
 ## Accompagnement
 Les études d’accompagnement relèvent d’une logique de conduite du changement ou d’animation territoriale. Elles peuvent concerner l’appui aux collectivités ou aux acteurs locaux dans la mise en œuvre de leur politique de mobilité, la mobilisation des parties prenantes, ou l’élaboration participative de stratégies. Elles intègrent aussi parfois une dimension de formation ou de sensibilisation.
 
-## Reccueil de données
+## Recueil de données
 Les études de recueil de données consistent à produire de l’information nouvelle sur les déplacements, les infrastructures ou les comportements, à travers des enquêtes, des comptages, ou des dispositifs de mesure. Elles constituent une étape préalable indispensable à d'autres types d’études, comme la modélisation, l’observation ou l’évaluation.
