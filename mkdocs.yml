@@ -78,7 +78,7 @@ nav:
     - stationnement : types_donnees/stationnement.md
     - covoiturage : types_donnees/covoiturage.md
     - autopartage : types_donnees/autopartage.md
-    - vélo : - covoiturage : types_donnees/velo.md
+    - vélo : types_donnees/velo.md
     - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
     - Typologie: type_etudes/type_etudes.md
