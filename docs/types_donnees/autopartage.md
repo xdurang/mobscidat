@@ -10,6 +10,7 @@ Cette page recense les ressources utiles sur les données relatives à l'autopar
 
 https://www.ecologie.gouv.fr/politiques-publiques/lautopartage-france 
 https://www.cerema.fr/fr/mots-cles/autopartage 
+https://www.francemobilites.fr/mots-cles/autopartage 
 
 standards:
 https://doc.transport.data.gouv.fr/type-donnees/velos-en-libre-service/lautopartage
