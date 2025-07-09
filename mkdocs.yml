@@ -83,6 +83,7 @@ nav:
   - Types d'études:
     - Typologie: type_etudes/type_etudes.md
     - Catégories:
+      - modelisation: type_etudes/modelisation.md
     - exemples: type_etudes/TE_exemples.md
     - études générales: type_etudes/TE_general.md
     - Métiers:
