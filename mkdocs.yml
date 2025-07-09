@@ -82,10 +82,10 @@ nav:
     - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
     - Typologie: type_etudes/type_etudes.md
+    - exemples: type_etudes/TE_exemples.md
+    - études générales: type_etudes/TE_general.md    
     - Catégories:
       - modelisation: type_etudes/modelisation.md
-    - exemples: type_etudes/TE_exemples.md
-    - études générales: type_etudes/TE_general.md
     - Métiers:
       - transport collectif et train: type_etudes/TE_TC.md
       - transport scolaire: type_etudes/TE_scolaire.md
