@@ -82,7 +82,7 @@ nav:
     - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
     - Typologie: type_etudes/type_etudes.md
-    - Catégorie: type_etudes/categorie.md
+    - Catégories:
     - exemples: type_etudes/TE_exemples.md
     - études générales: type_etudes/TE_general.md
     - Métiers:
