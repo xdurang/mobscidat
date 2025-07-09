@@ -6,7 +6,7 @@ tags:
 
 # Ressources sur les données pour le vélo 
 
-Cette page recense les ressources utiles sur les données de stationnement
+Cette page recense les ressources utiles sur les données relatives au vélo
 
 https://www.velo-territoires.org/observatoires/ 
 https://www.velo-territoires.org/politiques-cyclables/data-velo-modeles-donnees/ 
