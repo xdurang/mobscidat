@@ -1,20 +1,18 @@
 site_name: Ressources utiles sur les données de mobilité
 site_url: https://cerema.github.io/mobscidat
 repo_url: https://github.com/CEREMA/mobscidat
+
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.ico
   palette:
-    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
       primary: green
       accent: deep purple
-
-    # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
@@ -25,20 +23,17 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   features:
-    - navigation.tabs
+    - navigation.tabs          
     - navigation.tabs.sticky
     - navigation.footer
     - navigation.instant
     - navigation.sections
     - navigation.path
     - navigation.top
-    - navigation.expand
+    - navigation.expand        
   navigation:
-    tabs: true
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/CEREMA/mobscidat
+    tabs: true                
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -60,52 +55,60 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
 plugins:
   - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CEREMA/mobscidat
+
 nav:
   - Accueil: index.md
   - Mots-clés: tags.md
   - Glossaires:
-    - glossaire/glossaire.md
-    - Données massives: glossaire/donnees_massives.md
-    - Floating car data:
-      - FCD: glossaire/fcd/fcd.md
+      - glossaire/glossaire.md
+      - Données massives: glossaire/donnees_massives.md
+      - Floating car data:
+          - FCD: glossaire/fcd/fcd.md
   - Types de données:
-    - types_donnees/types_donnees.md
-    - outils open source: types_donnees/opensource.md
-    - OpenStreetMap : types_donnees/openstreetmap.md
-    - voirie : types_donnees/voirie.md
-    - transport public : types_donnees/transportpublic.md
-    - stationnement : types_donnees/stationnement.md
-    - covoiturage : types_donnees/covoiturage.md
-    - autopartage : types_donnees/autopartage.md
-    - vélo : types_donnees/velo.md
-    - accessibilité : types_donnees/accessibilite.md
+      - types_donnees/types_donnees.md
+      - outils open source: types_donnees/opensource.md
+      - OpenStreetMap : types_donnees/openstreetmap.md
+      - voirie : types_donnees/voirie.md
+      - transport public : types_donnees/transportpublic.md
+      - stationnement : types_donnees/stationnement.md
+      - covoiturage : types_donnees/covoiturage.md
+      - autopartage : types_donnees/autopartage.md
+      - vélo : types_donnees/velo.md
+      - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
-    - Types d'études:
-      - Vue d'ensemble: type_etudes/type_etudes.md
-      - exemples: type_etudes/TE_exemples.md
-      - études générales: type_etudes/TE_general.md    
-    - Catégories:
-      - Modélisation: type_etudes/modelisation.md
-      - Planification: type_etudes/planification.md
-      - Mise en oeuvre: type_etudes/mise_en_oeuvre.md
-      - Evaluation: type_etudes/evaluation.md
-      - Observation: type_etudes/observation.md
-      - Accompagnement: type_etudes/accompagnement.md
-      - Recueil de données: type_etudes/recueil_donnees.md
-    - Métiers:
-      - transport collectif et train: type_etudes/TE_TC.md
-      - transport scolaire: type_etudes/TE_scolaire.md
-      - pôles d'échange multimodaux: type_etudes/TE_PEM.md
-      - transports solidaires et accessibles: type_etudes/TE_access_soli.md
-      - voirie et l'espace public: type_etudes/TE_voirie.md
-      - modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
-      - trafic routier: type_etudes/TE_trafic.md
-      - services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
-      - stationnement: type_etudes/TE_stationnement.md
-      - management de la mobilité: type_etudes/TE_management_mob.md
-      - sécurité routière et accidentologie: type_etudes/TE_accidento.md
-      - logistique urbaine: type_etudes/TE_logistique_urbaine.md
-      - décarbonation et électrification: type_etudes/TE_decarbo.md
-      - environnement: type_etudes/TE_environnement.md
+      - Types d'études:
+          - Vue d'ensemble: type_etudes/type_etudes.md
+          - exemples: type_etudes/TE_exemples.md
+          - études générales: type_etudes/TE_general.md    
+      - Catégories:
+          - Modélisation: type_etudes/modelisation.md
+          - Planification: type_etudes/planification.md
+          - Mise en oeuvre: type_etudes/mise_en_oeuvre.md
+          - Evaluation: type_etudes/evaluation.md
+          - Observation: type_etudes/observation.md
+          - Accompagnement: type_etudes/accompagnement.md
+          - Recueil de données: type_etudes/recueil_donnees.md
+      - Métiers:
+          - transport collectif et train: type_etudes/TE_TC.md
+          - transport scolaire: type_etudes/TE_scolaire.md
+          - pôles d'échange multimodaux: type_etudes/TE_PEM.md
+          - transports solidaires et accessibles: type_etudes/TE_access_soli.md
+          - voirie et l'espace public: type_etudes/TE_voirie.md
+          - modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
+          - trafic routier: type_etudes/TE_trafic.md
+          - services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
+          - stationnement: type_etudes/TE_stationnement.md
+          - management de la mobilité: type_etudes/TE_management_mob.md
+          - sécurité routière et accidentologie: type_etudes/TE_accidento.md
+          - logistique urbaine: type_etudes/TE_logistique_urbaine.md
+          - décarbonation et électrification: type_etudes/TE_decarbo.md
+          - environnement: type_etudes/TE_environnement.md
+
