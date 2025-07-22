@@ -80,7 +80,6 @@ nav:
     - autopartage : types_donnees/autopartage.md
     - vélo : types_donnees/velo.md
     - accessibilité : types_donnees/accessibilite.md
-  - Types d'études:
 - title: Types d'études
   children:
     - title: Vue d'ensemble
