@@ -33,7 +33,8 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.expand
-    - navigation.sections
+  navigation:
+    tabs: true
 extra:
   social:
     - icon: fontawesome/brands/github
