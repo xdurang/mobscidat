@@ -81,32 +81,30 @@ nav:
     - vélo : types_donnees/velo.md
     - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
-      - Groupe : Types d'études
-          - Vue d'ensemble: type_etudes/type_etudes.md
-          - Exemples: type_etudes/TE_exemples.md
-          - Études générales: type_etudes/TE_general.md
-
-      - Groupe : Catégories
-          - Modélisation: type_etudes/modelisation.md
-          - Planification: type_etudes/planification.md
-          - Mise en oeuvre: type_etudes/mise_en_oeuvre.md
-          - Évaluation: type_etudes/evaluation.md
-          - Observation: type_etudes/observation.md
-          - Accompagnement: type_etudes/accompagnement.md
-          - Recueil de données: type_etudes/recueil_donnees.md
-
-      - Groupe : Métiers
-          - Transport collectif et train: type_etudes/TE_TC.md
-          - Transport scolaire: type_etudes/TE_scolaire.md
-          - Pôles d'échange multimodaux: type_etudes/TE_PEM.md
-          - Transports solidaires et accessibles: type_etudes/TE_access_soli.md
-          - Voirie et l'espace public: type_etudes/TE_voirie.md
-          - Modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
-          - Trafic routier: type_etudes/TE_trafic.md
-          - Services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
-          - Stationnement: type_etudes/TE_stationnement.md
-          - Management de la mobilité: type_etudes/TE_management_mob.md
-          - Sécurité routière et accidentologie: type_etudes/TE_accidento.md
-          - Logistique urbaine: type_etudes/TE_logistique_urbaine.md
-          - Décarbonation et électrification: type_etudes/TE_decarbo.md
-          - Environnement: type_etudes/TE_environnement.md
+    - Types d'études:
+      - Vue d'ensemble: type_etudes/type_etudes.md
+      - exemples: type_etudes/TE_exemples.md
+      - études générales: type_etudes/TE_general.md    
+    - Catégories:
+      - Modélisation: type_etudes/modelisation.md
+      - Planification: type_etudes/planification.md
+      - Mise en oeuvre: type_etudes/mise_en_oeuvre.md
+      - Evaluation: type_etudes/evaluation.md
+      - Observation: type_etudes/observation.md
+      - Accompagnement: type_etudes/accompagnement.md
+      - Recueil de données: type_etudes/recueil_donnees.md
+    - Métiers:
+      - transport collectif et train: type_etudes/TE_TC.md
+      - transport scolaire: type_etudes/TE_scolaire.md
+      - pôles d'échange multimodaux: type_etudes/TE_PEM.md
+      - transports solidaires et accessibles: type_etudes/TE_access_soli.md
+      - voirie et l'espace public: type_etudes/TE_voirie.md
+      - modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
+      - trafic routier: type_etudes/TE_trafic.md
+      - services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
+      - stationnement: type_etudes/TE_stationnement.md
+      - management de la mobilité: type_etudes/TE_management_mob.md
+      - sécurité routière et accidentologie: type_etudes/TE_accidento.md
+      - logistique urbaine: type_etudes/TE_logistique_urbaine.md
+      - décarbonation et électrification: type_etudes/TE_decarbo.md
+      - environnement: type_etudes/TE_environnement.md
