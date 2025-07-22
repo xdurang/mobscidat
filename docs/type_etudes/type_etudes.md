@@ -28,10 +28,10 @@ A noter aussi que les données de mobilité sont utilisés en dehors du domaine 
 
 <details>
 <summary><strong>Catégories</strong></summary>
-    - [Modélisation]: type_etudes/modelisation.md
-    - [Planification]: type_etudes/planification.md
-    - [Mise en oeuvre]: type_etudes/mise_en_oeuvre.md
-    - [Evaluation]: type_etudes/evaluation.md
-    - [Observation]: type_etudes/observation.md
-    - [Accompagnement]: type_etudes/accompagnement.md
-    - [Recueil de données]: type_etudes/recueil_donnees.md
+- [Modélisation]: type_etudes/modelisation.md
+- [Planification]: type_etudes/planification.md
+- [Mise en oeuvre]: type_etudes/mise_en_oeuvre.md
+- [Evaluation]: type_etudes/evaluation.md
+- [Observation]: type_etudes/observation.md
+- [Accompagnement]: type_etudes/accompagnement.md
+- [Recueil de données]: type_etudes/recueil_donnees.md
