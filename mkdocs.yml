@@ -81,12 +81,12 @@ nav:
     - vélo : types_donnees/velo.md
     - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
-    - Groupe : Types d'études
+    -Groupe: Types d'études
       - Vue d'ensemble: type_etudes/type_etudes.md
       - Exemples: type_etudes/TE_exemples.md
       - Études générales: type_etudes/TE_general.md
 
-    - Groupe : Catégories
+    -Groupe: Catégories
       - Modélisation: type_etudes/modelisation.md
       - Planification: type_etudes/planification.md
       - Mise en oeuvre: type_etudes/mise_en_oeuvre.md
@@ -95,7 +95,7 @@ nav:
       - Accompagnement: type_etudes/accompagnement.md
       - Recueil de données: type_etudes/recueil_donnees.md
 
-    - Groupe : Métiers
+    -Groupe: Métiers
       - Transport collectif et train: type_etudes/TE_TC.md
       - Transport scolaire: type_etudes/TE_scolaire.md
       - Pôles d'échange multimodaux: type_etudes/TE_PEM.md
