@@ -25,13 +25,3 @@ A noter aussi que les données de mobilité sont utilisés en dehors du domaine 
 | **Logistique urbaine** | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#modelisation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#planification) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#mise-en-oeuvre) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#evaluation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#observation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#accompagnement) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_logistique_urbaine/#recueil-de-donnees) |
 | **Décarbonation et électrification** | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#modelisation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#planification) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#mise-en-oeuvre) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#evaluation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#observation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#accompagnement) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_decarbo/#recueil-de-donnees) |
 | **Environnement** | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#modelisation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#planification) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#mise-en-oeuvre) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#evaluation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#observation) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#accompagnement) | [Lien](https://cerema.github.io/mobscidat/type_etudes/TE_environnement/#recueil-de-donnees) |
-
-<details>
-<summary><strong>Catégories</strong></summary>
-- [Modélisation]: type_etudes/modelisation.md
-- [Planification]: type_etudes/planification.md
-- [Mise en oeuvre]: type_etudes/mise_en_oeuvre.md
-- [Evaluation]: type_etudes/evaluation.md
-- [Observation]: type_etudes/observation.md
-- [Accompagnement]: type_etudes/accompagnement.md
-- [Recueil de données]: type_etudes/recueil_donnees.md
