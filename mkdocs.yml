@@ -84,7 +84,7 @@ nav:
       - vélo : types_donnees/velo.md
       - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
-      - Types d'études:
+      - Introduction:
           - Vue d'ensemble: type_etudes/type_etudes.md
           - exemples: type_etudes/TE_exemples.md
           - études générales: type_etudes/TE_general.md    
