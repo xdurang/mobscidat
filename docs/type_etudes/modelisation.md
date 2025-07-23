@@ -3,6 +3,7 @@ Les études de modélisation mobilisent des outils mathématiques et informatiqu
 ## Questionnement
 - Quels sont les flux actuels et futurs de mobilité ?
 - Quels sont les effets d’un scénario d’aménagement ou d’une mesure ?
+
 Etudes sur le moyen / long terme (5-30 ans)
 ## Données
 Enquêtes ménage déplacements (EMD) / Données GPS / FCD / Données socio-démographiques / Référentiels réseaux
