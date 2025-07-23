@@ -30,7 +30,9 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.top
-    - navigation.expand        
+    - navigation.expand
+    - search.suggest
+    - search.highlight
   navigation:
     tabs: true                
 
@@ -58,6 +60,7 @@ markdown_extensions:
 
 plugins:
   - tags
+  - search
 
 extra:
   social:
