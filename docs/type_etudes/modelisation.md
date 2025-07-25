@@ -8,3 +8,6 @@ Les études de modélisation mobilisent des outils mathématiques et informatiqu
 Etudes sur le moyen / long terme (5-30 ans)
 ## Données
 Enquêtes ménage déplacements (EMD) / Données GPS / FCD / Données socio-démographiques / Référentiels réseaux
+
+## _Exemples de prestataires_
+[EGIS](https://www.egis-group.com/fr) / [Systra](https://www.systra.com/type-market/conseil-et-multimodalite/) / [Setec](https://www.setec.fr/) / [Artelia](https://www.arteliagroup.com/) / [Algoé](https://www.algoe.fr/secteur/transports-et-mobilites/)
