@@ -7,3 +7,6 @@ Les études de recueil de données consistent à produire de l’information nou
 Etudes sur le très court / court terme (campagne ponctuelle ou annuelle)
 ## Données
 Enquêtes ménage déplacements / Comptages manuels ou automatiques / Données GPS et FCD / Enquêtes origine-destination / Données mobiles anonymisées
+
+## _Exemples de prestataires_
+[ALYCE](https://www.alyce.fr/) / [Systra](https://www.systra.com/type-market/conseil-et-multimodalite/) / [6T](https://www.6-t.co/nos-references/etudes) / [Immergis](https://immergis.fr/) / [Mobiped](https://www.mobiped.com/) / [Neovya](https://www.neovya.com/fr)
