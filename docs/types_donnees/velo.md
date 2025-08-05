@@ -27,6 +27,8 @@ https://www.cerema.fr/fr/actualites/obsmma-publications-du-projet
 https://www.velo-territoires.org/observatoires/plateforme-nationale-de-frequentation/ 
 https://www.cerema.fr/fr/actualites/dispositifs-comptage-cyclistes-retour-rendez-vous-mobilites?folder=13873 
 
+https://numerique360.banquedesterritoires.fr/mobilites/connaissances/flavien-lopez-comment-et-avec-quelles-donnees-peut-on-planifier-des-pistes-cyclables/
+
 
 ### enquêtes 
 https://www.barometre-velo.fr/ 
