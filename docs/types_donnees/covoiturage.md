@@ -4,7 +4,7 @@ tags:
   - covoiturage
 ---
 
-# Ressources sur les données pour le vélo 
+# Ressources sur les données pour le covoiturage
 
 Cette page recense les ressources utiles sur les données relatives au covoiturage
 
