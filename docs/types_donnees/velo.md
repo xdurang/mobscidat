@@ -46,7 +46,7 @@ On peut aussi retrouver ces données sur les sites des exploitants des services,
 ## Usage du vélo 
 https://www.cerema.fr/fr/actualites/obsmma-publications-du-projet 
 
-Le itinéraires suivis par les cyclistes peuvent être observés grâce à des applications comme Strava ou Géovélo. Les données collectées par les utilisateurs de ces applications peuvent être utilisées pour observer la fréquentations des aménagements cyclables. Il est possible de faire une demande de partenariat avec Strava Metro pour avoir accès gratuitement aux traces anonymisés des utilisateurs de la plateforme sur un territoire précis (https://metro.strava.com/fr). Géovélo propose aussi une solution de suivi du trafic pour les territoires, avec des statistiques sur le réseau cyclable, la répartition du trafic  et un outil d'aide à la décision (https://geovelo.app/fr/territories/).
+Le itinéraires suivis par les cyclistes peuvent être observés grâce à des applications comme Strava ou Géovélo. Les données collectées par les utilisateurs de ces applications peuvent être utilisées pour observer la fréquentations des aménagements cyclables. Il est possible de faire une demande de partenariat avec Strava Metro pour avoir accès gratuitement aux traces anonymisés des utilisateurs de la plateforme sur un territoire précis (https://metro.strava.com/fr). Géovélo propose aussi une solution de suivi du trafic pour les territoires, avec des statistiques sur le réseau cyclable, la répartition du trafic et un outil d'aide à la décision (https://geovelo.app/fr/territories/).
 
 ### Comptages 
 https://www.velo-territoires.org/observatoires/plateforme-nationale-de-frequentation/ 
