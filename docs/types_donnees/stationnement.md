@@ -110,6 +110,9 @@ le profil Netex pour le stationnement en ouvrage : [https://normes.transport.dat
 
 ### recharge électrique
 
+### annotation d'images de stationnement de surface
+Cet article investigue les outils permettant d'annoter des données de stationnement à partir de photos aériennes, qui serviront de jeu de données de référence pour un apprentissage automatique, et propos notamment un processus d'annotation utilisation Qgis. [https://datagistips.hypotheses.org/1218](https://datagistips.hypotheses.org/1218)
+
 
 ## Stationnement vélo
 
