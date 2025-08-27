@@ -53,6 +53,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
+  - pymdownx.magiclink
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
