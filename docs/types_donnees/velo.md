@@ -149,7 +149,7 @@ Bilans annuels de la Sécurité Routière :
 
 ## Cyclabilité
 
-*   Le baromètre des villes cyclables est réalisé par la Fédération française des Usagères et Usagers de la Bicyclette (FUB). C'est l’indice de satisfaction des usagers du vélo en France. La position des améliorations perçues depuis 2 ans, la position des points à améliorer en priorité, la position des souhaits de stationnements vélos ainsi que les questions et réponses à l'enquête sont disponibles en opendata pour chaque EPCI. Les données sociologiques des répondants sont disponibles au téléchargement si vous êtes un organisme à but non lucratif.
+*   Le baromètre des villes cyclables est réalisé par la Fédération française des Usagères et Usagers de la Bicyclette (FUB). C'est l’indice de satisfaction des usagers du vélo en France. La position des améliorations perçues depuis 2 ans, la position des points à améliorer en priorité, la position des souhaits de stationnements vélos ainsi que les questions et réponses à l'enquête sont [disponibles en opendata pour chaque EPCI](https://opendata.parlons-velo.fr/). Les données sociologiques des répondants sont disponibles au téléchargement si vous êtes un organisme à but non lucratif.
 *   [https://barometre.parlons-velo.fr/](https://barometre.parlons-velo.fr/). [https://www.barometre-velo.fr/](https://www.barometre-velo.fr/)
 *   Vélo & territoires a calculé un taux de cyclabilité de la voirie des communes en France, cela constitue une facette de la notion de cyclabilité
     [https://www.velo-territoires.org/actualite/2022/05/11/indicateur-de-cyclabilite/](https://www.velo-territoires.org/actualite/2022/05/11/indicateur-de-cyclabilite/).
