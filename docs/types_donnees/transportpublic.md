@@ -144,6 +144,9 @@ Description des équipements, gares, dépôts, véhicules.
 ## Outils
 
 Il pourrait être pertinent de recencer les acteurs et les outils / logiciels
+
+open source : https://github.com/MobilityData/awesome-transit 
+
 #### Producteurs de données
 
 - **Éditeurs de logiciels de SAE** (Systèmes d'Aide à l'Exploitation)
