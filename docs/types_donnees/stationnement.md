@@ -44,15 +44,12 @@ ainsi que les rapports du Cerema sur ce thème, sur [ceremadoc](https://doc.cere
 
 Les données publiées sur le PAN transport
 
-[https://transport.data.gouv.fr/datasets?q=stationnement](https://transport.data.gouv.fr/datasets?q=stationnement)
+[https://transport.data.gouv.fr/datasets?q=stationnement](https://transport.data.gouv.fr/datasets?q=stationnement) voir aussi [la documentation](https://doc.transport.data.gouv.fr) qui décrit le cadre juridique et les standards.
 
-donnée SIG, pas de modèle évident
-
-description différente selon rôle (patrimoine ou mobilité/voirie ou urbanisme)
 
 # Les principaux types de données :
 
-L'offre de stationnement est diverse (publique, privée, en voirie, parc ou ouvrage), elle peut être décrite à différents niveaux de détail (description des places individuelles ou pas, avec distinction entre PMR - livraisons - autopartage - places électriques - 2 roues…) selon les besoins (gestion de voirie, de patrimoine, urbanisme, service aux usagers, gestion de la carte mobilité inclusion, suivi des obligations règlementaires, suivi des parcs relais, etc.) donc un référentiel doit en principe intégrer différents objets reliés entre eux (parc, place, etc.). En général la donnée est décrite sous une forme géoréférencée permettant de produire des cartes sur un SIG, avec des données linéaires ou surfaciques, sans qu'il y ait à notre connaissance de format standards pour décrire ces données, ni de modèle de données.
+L'offre de stationnement est diverse (publique, privée, en voirie, parc ou ouvrage), elle peut être décrite à différents niveaux de détail (description des places individuelles ou pas, avec distinction entre PMR - livraisons - autopartage - places électriques - autocars  - 2 roues…) selon les besoins (gestion de voirie, de patrimoine, urbanisme, service aux usagers, zones de stationnement payant / ZPS, gestion de la carte mobilité inclusion, suivi des obligations règlementaires, suivi des parcs relais P+R, dépose-minute, etc.) donc un référentiel doit en principe intégrer différents objets reliés entre eux (parc, place, etc.). En général la donnée est décrite sous une forme géoréférencée permettant de produire des cartes sur un SIG, avec des données linéaires ou surfaciques, sans qu'il y ait à notre connaissance de format standards pour décrire ces données, ni de modèle de données.
 
 ## Cas d'usage
 
@@ -63,6 +60,10 @@ Les données de stationnement sont utiles pour divers besoin (voirie, patrimoine
 Le standard européen APDS ([https://www.allianceforparkingdatastandards.org](https://www.allianceforparkingdatastandards.org) avec la documentation technique ici : [https://github.com/parkingdata/spec/tree/master/specs](https://github.com/parkingdata/spec/tree/master/specs)) inclut un modèle de données du stationnement assez général qui semble pouvoir prendre en compte une bonne partie (mais à notre connaissance il est peu implémenté en France?).
 
 En France, ont été définis un profil d'échange normalisé s'appuyant sur Netex en lien avec le règlement délégué MMTIS, et des schéma de données pour le stationnement vélo, les aires de covoiturage, ainsi que la réglementation des aires de livraison. (cf. plus bas)
+
+DATEX II : ce standard européen pour l'information routière inclut des modules sur le stationnement (notamment pour les aires de stationnement PL sur autoroutes) [site web Datex2](https://datex2.eu/user-domains/parking/)
+
+GBFS pour le stationnement vélo : Pour les vélos en libre-service avec stations
 
 Il est également très utile de parcourir le wiki d'OpenStreetMap qui possède une grande richesse de description au moyen de simples tags, cf. [https://wiki.openstreetmap.org/wiki/FR:Parking](https://wiki.openstreetmap.org/wiki/FR:Parking) , décrits sur ici sur [l'exemple de Montrouge](https://wiki.openstreetmap.org/wiki/Montrouge#Stationnement), et est utilisé par des collectivités comme Montpellier. [Le forum](https://forum.openstreetmap.fr/t/voies-de-stationnement/7046) permet de trouver des réponses rapidement.
 
@@ -142,15 +143,22 @@ La startup d'état Dialog a pour mission de numériser les arrêtés de circulat
 
 ## Tarification
 
-Les tarifs et règles de tarification peuvent également être décrites dans un référentiel de stationnement.
+Les tarifs et règles de tarification peuvent également être décrites dans un référentiel de stationnement. 
+L'ouverture des données dans le cadre européen a largement pour objectif d'améliorer les services aux usagers via le développement d'un écosystème de services numériques.
 
 ## Usage
 
 Les données d'usage sont les données mesurées ou historisées d'occupation, rotation, respect et paiement du stationnement.
 
-# Recueil de données
+- Données de disponibilité en temps réel : publiées en principe en poen data dans la cadre du règlement MMTIS (APIs et flux temps réel)
+- Données de transactions : Les données de paiement, abonnements, FPS (forfait post-stationnement)
+- Données de rotation : durées moyennes, taux de rotation selon zones/horaires...
 
-à compléter…
+## Données socio-économiques
+- Coûts et recettes : Données économiques sur le stationnement (revenus, coûts d'exploitation)
+- Enquêtes de comportement : Pratiques des usagers, temps de recherche
+
+# Recueil de données
 
 Les collectivités gestionnaires de voirie et AOM sont amenés à compléter régulièrement leurs données concernant le stationnement, au moyen d'enquêtes, et de comptage (utilisant de plus en plus des systèmes automatisés utilisant des prises de vue embarquées, même si pour l'instant l'utilisation des véhicules de verbalisation par LAPI ne semble pas encore possible pour le recueil de données).
 
