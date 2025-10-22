@@ -2,6 +2,9 @@
 title: Typologie des études
 ---
 
+!!! tip "Version interactive disponible"
+    **[🚀 Accéder à la version interactive](interactive/)** - Interface moderne avec filtres dynamiques, tableaux interactifs et design conforme à la charte Cerema.
+
 Il existe une grande diversité d'études, et donc de cas d'usage des données de mobilité.   
 On propose une typologie croisant les métier et 7 grandes catégories d'études : modélisation, planification, études de mise en oeuvre, évaluation, observation, accompagnement, et recueil de données.   
 A noter aussi que les données de mobilité sont utilisés en dehors du domaine des mobilités, pour les infrastructures de transport, mais aussi le tourisme, la santé, la culture, le logement ou l'urbanisme...
