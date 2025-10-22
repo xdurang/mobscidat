@@ -16,3 +16,5 @@ Ressources utiles (notamment le PAN transport, rapports du Cerema...), principau
 
 3) **Types d'études de mobilité**
 Proposition de typologie des études, cas d'usage des données pour l'analyse et l'étude des mobilités.
+
+🚀 **[Accéder à la typologie interactive](typologie_interactive.html)** - Interface moderne avec filtres dynamiques et design conforme à la charte Cerema.
