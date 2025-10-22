@@ -2,7 +2,7 @@
 
 ## 📊 Vue d'ensemble
 
-Cette version interactive de la typologie des études de mobilité offre une interface moderne et intuitive pour explorer les différents types d'études par métier et catégorie.
+Cette version interactive de la typologie des études de mobilité (https://xdurang.github.io/mobscidat/) offre une interface moderne et intuitive pour explorer les différents types d'études par métier et catégorie.
 
 ## ✨ Fonctionnalités
 
