@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typologie des Études de Mobilité | Cerema</title>
+    
+    <!-- Police Marianne (obligatoire) -->
+    <link href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.9/dist/dsfr.min.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Marianne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.5;
+            color: #333333;
+            background: #FFFFFF;
+        }
+
+        /* HEADER INSTITUTIONNEL */
+        .header-institutional {
+            background: #000091;
+            color: #FFFFFF;
+            padding: 20px 0;
+            border-bottom: 3px solid #FDC400;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-logos {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .logo-marianne {
+            font-weight: bold;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-right: 2px solid rgba(255, 255, 255, 0.3);
+            padding-right: 30px;
+        }
+
+        .logo-cerema {
+            font-weight: 700;
+            font-size: 1.5em;
+            color: #FDC400;
+        }
+
+        .header-return {
+            text-align: right;
+        }
+
+        .header-return a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: color 0.3s ease;
+        }
+
+        .header-return a:hover {
+            color: #FDC400;
+        }
+
+        /* HERO SECTION */
+        .hero-section {
+            background: linear-gradient(to bottom, #F6F6F6 0%, #FFFFFF 100%);
+            padding: 60px 40px;
+            border-bottom: 1px solid #E5E5E5;
+        }
+
+        .hero-content {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .hero-content h1 {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 700;
+            font-size: 2.5em;
+            color: #000091;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero-content .subtitle {
+            font-size: 1.2em;
+            color: #666666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .hero-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+            background: #E5E5E5;
+            color: #333333;
+            border: 1px solid #CCCCCC;
+        }
+
+        .tag.mobilite {
+            background: #E3F2FD;
+            color: #1565C0;
+            border-color: #1565C0;
+        }
+
+        /* CONTROLES */
+        .controls-section {
+            background: #F6F6F6;
+            padding: 30px 40px;
+            border-bottom: 1px solid #E5E5E5;
+        }
+
+        .controls-content {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-width: 250px;
+        }
+
+        .filter-group label {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            font-size: 0.9em;
+            color: #333333;
+        }
+
+        select {
+            font-family: 'Marianne', sans-serif;
+            padding: 10px 15px;
+            border: 1px solid #CCCCCC;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #FFFFFF;
+            color: #333333;
+        }
+
+        select:hover {
+            border-color: #000091;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #000091;
+            box-shadow: 0 0 0 2px rgba(0, 0, 145, 0.1);
+        }
+
+        .legend {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .legend-title {
+            font-weight: 600;
+            font-size: 0.9em;
+            color: #333333;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85em;
+            color: #666666;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            border: 1px solid #CCCCCC;
+        }
+
+        /* MAIN CONTENT */
+        .main-content {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        /* VUE D'ENSEMBLE - VERSION SOBRE INSTITUTIONNELLE */
+        .intro-institutional {
+            position: relative;
+            background: #F6F6F6;
+            border: 2px solid #E5E5E5;
+            border-left: 6px solid #000091;
+            border-radius: 4px;
+            padding: 40px;
+            margin-bottom: 60px;
+        }
+
+        .intro-institutional h2 {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 700;
+            font-size: 1.8em;
+            color: #000091;
+            margin-bottom: 20px;
+        }
+
+        .intro-institutional p {
+            color: #333333;
+            font-size: 1.05em;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .intro-institutional .highlight {
+            font-weight: 600;
+            color: #000091;
+        }
+
+        .intro-institutional strong {
+            font-weight: 700;
+            color: #000091;
+        }
+
+        /* Bloc numérique style institutionnel */
+        .key-numbers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #E5E5E5;
+        }
+
+        .key-number {
+            text-align: center;
+            padding: 20px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            border: 1px solid #E5E5E5;
+            transition: all 0.3s ease;
+        }
+
+        .key-number:hover {
+            border-color: #000091;
+            box-shadow: 0 2px 8px rgba(0, 0, 145, 0.1);
+        }
+
+        .key-number-value {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 700;
+            font-size: 2.5em;
+            color: #000091;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .key-number-label {
+            font-size: 0.9em;
+            color: #666666;
+            font-weight: 500;
+        }
+
+        /* Catégories - Cartes sobres */
+        .categories-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .category-card {
+            background: #FFFFFF;
+            border: 2px solid #E5E5E5;
+            border-radius: 4px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .category-card:hover {
+            border-color: #000091;
+            box-shadow: 0 4px 12px rgba(0, 0, 145, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .category-card-icon {
+            font-size: 2em;
+            margin-bottom: 12px;
+        }
+
+        .category-card-title {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            font-size: 0.95em;
+            color: #000091;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* SECTION TITRE */
+        .section-title {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 700;
+            font-size: 1.8em;
+            color: #000091;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #FDC400;
+        }
+
+        /* TABLEAU */
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 60px;
+            border: 1px solid #E5E5E5;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #FFFFFF;
+        }
+
+        th {
+            background: #000091;
+            color: #FFFFFF;
+            padding: 16px;
+            text-align: left;
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #FDC400;
+        }
+
+        th:first-child {
+            position: sticky;
+            left: 0;
+            z-index: 11;
+        }
+
+        td {
+            padding: 16px;
+            border-bottom: 1px solid #E5E5E5;
+            vertical-align: top;
+        }
+
+        td:first-child {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            color: #000091;
+            background: #F6F6F6;
+            position: sticky;
+            left: 0;
+            z-index: 10;
+        }
+
+        tr:hover td {
+            background: #FAFAFA;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Cellules de données */
+        .cell {
+            min-height: 80px;
+            padding: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .cell:hover {
+            border-color: #000091;
+            box-shadow: 0 2px 8px rgba(0, 0, 145, 0.15);
+        }
+
+        /* Niveaux d'intensité - Palette sobre */
+        .cell.level-high {
+            background: #000091;
+            color: #FFFFFF;
+            border-color: #000091;
+        }
+
+        .cell.level-medium {
+            background: #6A6AF4;
+            color: #FFFFFF;
+            border-color: #6A6AF4;
+        }
+
+        .cell.level-low {
+            background: #E3E3FD;
+            color: #000091;
+            border-color: #CCCCF4;
+        }
+
+        .cell.level-none {
+            background: #F6F6F6;
+            color: #999999;
+        }
+
+        .cell-title {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+
+        .cell-examples {
+            font-size: 0.8em;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+
+        /* USAGES TRANSVERSAUX */
+        .usages-section {
+            margin-top: 60px;
+            padding-top: 60px;
+            border-top: 1px solid #E5E5E5;
+        }
+
+        .usages-intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .usages-intro p {
+            color: #666666;
+            font-size: 1.05em;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .usages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .usage-card {
+            background: #FFFFFF;
+            border: 2px solid #E5E5E5;
+            border-radius: 4px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .usage-card:hover {
+            border-color: #FDC400;
+            box-shadow: 0 4px 12px rgba(253, 196, 0, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .usage-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .usage-card h3 {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            color: #000091;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+
+        .usage-card p {
+            color: #666666;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        /* CTA BUTTON */
+        .cta-button {
+            display: inline-block;
+            background: #FDC400;
+            color: #000091;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-decoration: none;
+            border: 2px solid #FDC400;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-button:hover {
+            background: #000091;
+            color: #FFFFFF;
+            border-color: #000091;
+        }
+
+        /* MODALE */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #FFFFFF;
+            padding: 40px;
+            border-radius: 4px;
+            max-width: 700px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            border-top: 6px solid #000091;
+        }
+
+        .modal-close {
+            float: right;
+            font-size: 28px;
+            cursor: pointer;
+            color: #999999;
+            transition: color 0.3s ease;
+            line-height: 1;
+        }
+
+        .modal-close:hover {
+            color: #000091;
+        }
+
+        .modal h3 {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 700;
+            color: #000091;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .modal-section {
+            margin-bottom: 25px;
+        }
+
+        .modal-section h4 {
+            font-family: 'Marianne', sans-serif;
+            font-weight: 600;
+            color: #000091;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+
+        .modal-section p {
+            color: #333333;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .modal-section ul {
+            list-style-position: inside;
+            color: #333333;
+            line-height: 1.8;
+        }
+
+        .modal-section li {
+            padding-left: 10px;
+        }
+
+        /* FOOTER INSTITUTIONNEL */
+        .footer-institutional {
+            background: #F6F6F6;
+            border-top: 3px solid #000091;
+            padding: 40px 40px 30px 40px;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            max-width: 960px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-institutional p {
+            color: #666666;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .footer-institutional strong {
+            color: #000091;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #E5E5E5;
+        }
+
+        .footer-links a {
+            color: #666666;
+            text-decoration: none;
+            font-size: 0.85em;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #000091;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding: 0 20px;
+            }
+
+            .header-logos {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .logo-marianne {
+                border-right: none;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+                padding-right: 0;
+                padding-bottom: 10px;
+            }
+
+            .hero-section {
+                padding: 40px 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 1.8em;
+            }
+
+            .controls-content {
+                padding: 0 20px;
+                flex-direction: column;
+            }
+
+            .filter-group {
+                width: 100%;
+                min-width: auto;
+            }
+
+            .legend {
+                margin-left: 0;
+                flex-wrap: wrap;
+            }
+
+            .main-content {
+                padding: 40px 20px;
+            }
+
+            .intro-institutional {
+                padding: 25px;
+            }
+
+            .key-numbers {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .categories-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .usages-grid {
+                grid-template-columns: 1fr;
+            }
+
+            th, td {
+                padding: 10px;
+                font-size: 0.85em;
+            }
+        }
+
+        /* ANIMATIONS SUBTILES */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .intro-institutional,
+        .table-container,
+        .usages-section {
+            animation: fadeIn 0.6s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER INSTITUTIONNEL -->
+    <header class="header-institutional">
+        <div class="header-content">
+            <div class="header-logos">
+                <div class="logo-marianne">
+                    République<br>Française
+                </div>
+                <div class="logo-cerema">
+                    CEREMA
+                </div>
+            </div>
+            <div class="header-return">
+                <a href="https://www.cerema.fr">← Retour au site Cerema.fr</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Typologie des Études de Mobilité</h1>
+            <p class="subtitle">
+                Une synthèse des cas d'usage des données de mobilité par métier et catégorie d'étude, 
+                pour accompagner les collectivités et les experts dans leurs projets.
+            </p>
+            <div class="hero-tags">
+                <span class="tag mobilite">Mobilité</span>
+                <span class="tag">Données</span>
+                <span class="tag">Méthodologie</span>
+                <span class="tag">Études</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTROLES -->
+    <section class="controls-section">
+        <div class="controls-content">
+            <div class="filter-group">
+                <label for="metier-filter">Filtrer par métier</label>
+                <select id="metier-filter">
+                    <option value="all">Tous les métiers</option>
+                    <option value="etudes-generales">Études générales</option>
+                    <option value="transport-collectif">Transport collectif</option>
+                    <option value="modes-actifs">Modes actifs</option>
+                    <option value="vehicule-routier">Véhicule routier</option>
+                    <option value="marchandises">Marchandises</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="categorie-filter">Filtrer par catégorie d'étude</label>
+                <select id="categorie-filter">
+                    <option value="all">Toutes les catégories</option>
+                    <option value="modelisation">Modélisation</option>
+                    <option value="planification">Planification</option>
+                    <option value="mise-oeuvre">Mise en œuvre</option>
+                    <option value="evaluation">Évaluation</option>
+                    <option value="observation">Observation</option>
+                    <option value="accompagnement">Accompagnement</option>
+                    <option value="recueil">Recueil de données</option>
+                </select>
+            </div>
+
+            <div class="legend">
+                <span class="legend-title">Intensité d'usage :</span>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #000091;"></div>
+                    <span>Élevée</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #6A6AF4;"></div>
+                    <span>Moyenne</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #E3E3FD;"></div>
+                    <span>Faible</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main class="main-content">
+        <!-- VUE D'ENSEMBLE - VERSION INSTITUTIONNELLE SOBRE -->
+        <section class="intro-institutional">
+            <h2>Vue d'ensemble</h2>
+            <p>
+                Il existe une <span class="highlight">grande diversité d'études</span>, et donc de 
+                cas d'usage des données de mobilité. Cette typologie croise les métiers avec 
+                <strong>7 grandes catégories d'études</strong> : modélisation, planification, 
+                mise en œuvre, évaluation, observation, accompagnement et recueil de données.
+            </p>
+            <p>
+                À noter également que les données de mobilité sont utilisées 
+                <span class="highlight">en dehors du domaine des mobilités</span>, pour les 
+                infrastructures de transport, mais aussi le tourisme, la santé, la culture, 
+                le logement ou l'urbanisme.
+            </p>
+
+            <!-- Chiffres clés -->
+            <div class="key-numbers">
+                <div class="key-number">
+                    <span class="key-number-value">5</span>
+                    <span class="key-number-label">Métiers</span>
+                </div>
+                <div class="key-number">
+                    <span class="key-number-value">7</span>
+                    <span class="key-number-label">Catégories</span>
+                </div>
+                <div class="key-number">
+                    <span class="key-number-value">35</span>
+                    <span class="key-number-label">Types d'études</span>
+                </div>
+                <div class="key-number">
+                    <span class="key-number-value">6</span>
+                    <span class="key-number-label">Domaines transversaux</span>
+                </div>
+            </div>
+
+            <!-- Catégories en cartes sobres -->
+            <div class="categories-cards">
+                <div class="category-card">
+                    <div class="category-card-icon">🔬</div>
+                    <div class="category-card-title">Modélisation</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-card-icon">📋</div>
+                    <div class="category-card-title">Planification</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-card-icon">⚙️</div>
+                    <div class="category-card-title">Mise en œuvre</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-card-icon">📊</div>
+                    <div class="category-card-title">Évaluation</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-card-icon">👁️</div>
+                    <div class="category-card-title">Observation</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-card-icon">🤝</div>
+                    <div class="category-card-title">Accompagnement</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-card-icon">📡</div>
+                    <div class="category-card-title">Recueil</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TABLEAU DES TYPES D'ÉTUDES -->
+        <h2 class="section-title">Tableau des types d'étude du domaine Mobilités</h2>
+        
+        <div class="table-container">
+            <table id="typologie-table">
+                <thead>
+                    <tr>
+                        <th>Métier / Catégorie</th>
+                        <th data-category="modelisation">Modélisation</th>
+                        <th data-category="planification">Planification</th>
+                        <th data-category="mise-oeuvre">Mise en œuvre</th>
+                        <th data-category="evaluation">Évaluation</th>
+                        <th data-category="observation">Observation</th>
+                        <th data-category="accompagnement">Accompagnement</th>
+                        <th data-category="recueil">Recueil</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Le contenu sera généré dynamiquement -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- USAGES TRANSVERSAUX -->
+        <section class="usages-section">
+            <h2 class="section-title">Usages transversaux des données de mobilité</h2>
+            <div class="usages-intro">
+                <p>
+                    Les données de mobilité sont également utilisées en dehors du domaine des mobilités, 
+                    dans de nombreux secteurs d'activité publique et d'aménagement du territoire.
+                </p>
+            </div>
+
+            <div class="usages-grid">
+                <div class="usage-card">
+                    <div class="usage-icon">🏥</div>
+                    <h3>Santé</h3>
+                    <p>Analyse des flux pour l'accès aux soins, épidémiologie spatiale, planification hospitalière</p>
+                </div>
+                <div class="usage-card">
+                    <div class="usage-icon">🏛️</div>
+                    <h3>Culture</h3>
+                    <p>Attractivité des équipements culturels, optimisation des événements, étude des parcours visiteurs</p>
+                </div>
+                <div class="usage-card">
+                    <div class="usage-icon">🏠</div>
+                    <h3>Logement</h3>
+                    <p>Analyse des bassins de vie, accessibilité aux services, dynamiques résidentielles</p>
+                </div>
+                <div class="usage-card">
+                    <div class="usage-icon">🏗️</div>
+                    <h3>Urbanisme</h3>
+                    <p>Planification urbaine, densification, mixité fonctionnelle, aménagement du territoire</p>
+                </div>
+                <div class="usage-card">
+                    <div class="usage-icon">🏖️</div>
+                    <h3>Tourisme</h3>
+                    <p>Flux touristiques, capacité d'accueil, saisonnalité, attractivité territoriale</p>
+                </div>
+                <div class="usage-card">
+                    <div class="usage-icon">🚧</div>
+                    <h3>Infrastructures</h3>
+                    <p>Dimensionnement, maintenance prédictive, analyse d'impact des travaux</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER INSTITUTIONNEL -->
+    <footer class="footer-institutional">
+        <div class="footer-content">
+            <p>
+                <strong>Cerema</strong> – Centre d'études et d'expertise sur les risques, 
+                l'environnement, la mobilité et l'aménagement
+            </p>
+            <p style="font-size: 0.85em;">Établissement public sous tutelle du ministère de la Transition écologique et de la Cohésion des territoires</p>
+            
+            <div class="footer-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Accessibilité : partiellement conforme</a>
+                <a href="#">Données personnelles</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALE -->
+    <div class="modal" id="detail-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        // [JavaScript identique à la version précédente - données et fonctions]
+        const typologieData = {
+            'etudes-generales': {
+                name: 'Études générales',
+                modelisation: {
+                    level: 'high',
+                    title: 'Modèles de trafic multimodaux',
+                    examples: 'Modèles 4 étapes, modèles à base d\'agents',
+                    details: {
+                        description: 'Développement et calibration de modèles de demande et d\'affectation de trafic',
+                        donnees: ['Enquêtes déplacements', 'Comptages routiers', 'Données billettiques', 'Données GPS'],
+                        methodologies: ['Modèles 4 étapes', 'MATSim', 'Modèles gravitaires'],
+                        exemples: ['Plan de déplacements urbains', 'Schéma directeur d\'aménagement']
+                    }
+                },
+                planification: {
+                    level: 'high',
+                    title: 'Plans de mobilité',
+                    examples: 'PDU, SRADDET, schémas directeurs',
+                    details: {
+                        description: 'Élaboration de documents de planification stratégique',
+                        donnees: ['Données socio-économiques', 'Enquêtes mobilité', 'Données d\'infrastructure'],
+                        methodologies: ['Diagnostic territorial', 'Scénarisation', 'Évaluation multicritère'],
+                        exemples: ['PDU métropolitain', 'Schéma cyclable régional']
+                    }
+                },
+                'mise-oeuvre': {
+                    level: 'medium',
+                    title: 'Mise en œuvre opérationnelle',
+                    examples: 'Projets d\'infrastructure, services',
+                    details: {
+                        description: 'Conception et déploiement de projets concrets',
+                        donnees: ['Données de fréquentation', 'Études de flux', 'Enquêtes usagers'],
+                        methodologies: ['Études de faisabilité', 'Dimensionnement', 'Études d\'impact'],
+                        exemples: ['Nouvelle ligne de bus', 'Aménagement cyclable']
+                    }
+                },
+                evaluation: {
+                    level: 'high',
+                    title: 'Évaluation de politiques',
+                    examples: 'Évaluation ex-ante et ex-post',
+                    details: {
+                        description: 'Mesure des impacts socio-économiques et environnementaux',
+                        donnees: ['Indicateurs de performance', 'Données avant/après', 'Enquêtes satisfaction'],
+                        methodologies: ['Analyse coûts-bénéfices', 'Évaluation multicritère', 'Calcul économique'],
+                        exemples: ['Bilan LOTI', 'Évaluation ZFE']
+                    }
+                },
+                observation: {
+                    level: 'high',
+                    title: 'Observatoires territoriaux',
+                    examples: 'Tableaux de bord, indicateurs',
+                    details: {
+                        description: 'Suivi continu des pratiques et évolutions',
+                        donnees: ['Séries temporelles', 'Données multi-sources', 'Open data'],
+                        methodologies: ['Tableaux de bord', 'Data mining', 'Analyse de tendances'],
+                        exemples: ['Observatoire régional mobilité', 'Baromètre des mobilités']
+                    }
+                },
+                accompagnement: {
+                    level: 'medium',
+                    title: 'Conseil et expertise',
+                    examples: 'AMO, études de cadrage',
+                    details: {
+                        description: 'Support technique et méthodologique',
+                        donnees: ['Retours d\'expérience', 'Benchmarks', 'État de l\'art'],
+                        methodologies: ['Diagnostic', 'Recommandations', 'Transfert de compétences'],
+                        exemples: ['AMO Plan de mobilité', 'Audit système vélo']
+                    }
+                },
+                recueil: {
+                    level: 'high',
+                    title: 'Production de données',
+                    examples: 'Enquêtes, capteurs, crowdsourcing',
+                    details: {
+                        description: 'Collecte et structuration de données primaires',
+                        donnees: ['Enquêtes terrain', 'Capteurs IoT', 'Applications mobiles'],
+                        methodologies: ['Protocoles d\'enquête', 'Déploiement capteurs', 'APIs'],
+                        exemples: ['Enquête ménages déplacements', 'Réseau de compteurs vélo']
+                    }
+                }
+            },
+            'transport-collectif': {
+                name: 'Transport collectif',
+                modelisation: {
+                    level: 'high',
+                    title: 'Modélisation de réseau TC',
+                    examples: 'Dimensionnement lignes, fréquences',
+                    details: {
+                        description: 'Optimisation des réseaux de transport en commun',
+                        donnees: ['Données billettiques', 'Données GTFS', 'Comptages'],
+                        methodologies: ['Optimisation de tracés', 'Calcul de fréquences', 'Modèles de choix discrets'],
+                        exemples: ['Restructuration réseau bus', 'Dimensionnement tramway']
+                    }
+                },
+                planification: {
+                    level: 'high',
+                    title: 'Schémas directeurs TC',
+                    examples: 'Plans de réseau, desserte',
+                    details: {
+                        description: 'Planification stratégique des réseaux',
+                        donnees: ['Matrices OD', 'Données démographiques', 'Enquêtes usagers'],
+                        methodologies: ['Analyse de desserte', 'Hiérarchisation réseau', 'Scénarios de développement'],
+                        exemples: ['Schéma directeur bus', 'Plan mobilité périurbain']
+                    }
+                },
+                'mise-oeuvre': {
+                    level: 'high',
+                    title: 'Exploitation TC',
+                    examples: 'Horaires, régulation, information',
+                    details: {
+                        description: 'Gestion opérationnelle quotidienne',
+                        donnees: ['Données temps réel', 'Billettique', 'SAE (Système d\'aide à l\'exploitation)'],
+                        methodologies: ['Optimisation horaires', 'Régulation dynamique', 'Information voyageur'],
+                        exemples: ['Application temps réel', 'Gestion perturbations']
+                    }
+                },
+                evaluation: {
+                    level: 'high',
+                    title: 'Performance réseau TC',
+                    examples: 'Qualité de service, fréquentation',
+                    details: {
+                        description: 'Mesure et amélioration continue',
+                        donnees: ['KPI exploitation', 'Enquêtes satisfaction', 'Données commerciales'],
+                        methodologies: ['Tableaux de bord', 'Benchmarking', 'Analyse de performance'],
+                        exemples: ['Bilan d\'exploitation annuel', 'Enquête satisfaction']
+                    }
+                },
+                observation: {
+                    level: 'high',
+                    title: 'Suivi fréquentation TC',
+                    examples: 'Observatoires, évolutions',
+                    details: {
+                        description: 'Analyse continue des usages',
+                        donnees: ['Validations', 'Montées-descentes', 'Taux de remplissage'],
+                        methodologies: ['Séries temporelles', 'Détection d\'anomalies', 'Prévision demande'],
+                        exemples: ['Observatoire ligne par ligne', 'Prévision saisonnalité']
+                    }
+                },
+                accompagnement: {
+                    level: 'medium',
+                    title: 'AMO transports collectifs',
+                    examples: 'DSP, contrats, tarification',
+                    details: {
+                        description: 'Support décisionnel et contractuel',
+                        donnees: ['Données contractuelles', 'Coûts d\'exploitation', 'Recettes'],
+                        methodologies: ['Analyse économique', 'Aide à la décision', 'Études tarifaires'],
+                        exemples: ['Préparation DSP', 'Refonte tarifaire']
+                    }
+                },
+                recueil: {
+                    level: 'medium',
+                    title: 'Comptages TC',
+                    examples: 'Enquêtes montées-descentes',
+                    details: {
+                        description: 'Collecte de données de charge',
+                        donnees: ['Comptages manuels', 'Capteurs automatiques', 'Pesées'],
+                        methodologies: ['Protocoles comptage', 'Extrapolation', 'Validation données'],
+                        exemples: ['Campagne annuelle comptages', 'Enquête charge ligne']
+                    }
+                }
+            },
+            'modes-actifs': {
+                name: 'Modes actifs (vélo, marche)',
+                modelisation: {
+                    level: 'medium',
+                    title: 'Modèles de demande vélo',
+                    examples: 'Potentiel cyclable, itinéraires',
+                    details: {
+                        description: 'Estimation du potentiel et des flux vélo/marche',
+                        donnees: ['Données GPS vélo', 'Comptages', 'Enquêtes pratiques'],
+                        methodologies: ['Calcul potentiel cyclable', 'Modèles de choix d\'itinéraire', 'Accessibilité piétonne'],
+                        exemples: ['Carte potentiel vélo', 'Cheminements piétons']
+                    }
+                },
+                planification: {
+                    level: 'high',
+                    title: 'Schémas cyclables',
+                    examples: 'Plans vélo, itinéraires piétons',
+                    details: {
+                        description: 'Planification des infrastructures modes actifs',
+                        donnees: ['Réseau existant', 'Générateurs de flux', 'Diagnostics terrain'],
+                        methodologies: ['Priorisation axes', 'Continuités cyclables', 'Hiérarchisation'],
+                        exemples: ['Plan vélo communal', 'Schéma directeur modes actifs']
+                    }
+                },
+                'mise-oeuvre': {
+                    level: 'high',
+                    title: 'Aménagements cyclables',
+                    examples: 'Pistes cyclables, jalonnement',
+                    details: {
+                        description: 'Conception et réalisation d\'infrastructures',
+                        donnees: ['Plans de circulation', 'Études de trafic', 'Contraintes techniques'],
+                        methodologies: ['Dimensionnement pistes', 'Aménagement carrefours', 'Signalétique'],
+                        exemples: ['Voie verte', 'Piste cyclable bidirectionnelle']
+                    }
+                },
+                evaluation: {
+                    level: 'medium',
+                    title: 'Impact aménagements',
+                    examples: 'Fréquentation avant/après',
+                    details: {
+                        description: 'Mesure de l\'effet des aménagements',
+                        donnees: ['Comptages avant/après', 'Enquêtes usagers', 'Accidentologie'],
+                        methodologies: ['Analyse avant/après', 'Coûts-bénéfices', 'Reporting'],
+                        exemples: ['Évaluation coronapiste', 'Bilan sécurité carrefour']
+                    }
+                },
+                observation: {
+                    level: 'high',
+                    title: 'Comptages modes actifs',
+                    examples: 'Observatoires vélo/piétons',
+                    details: {
+                        description: 'Suivi continu des pratiques',
+                        donnees: ['Réseau de compteurs', 'Applications traces GPS', 'Enquêtes baromètre'],
+                        methodologies: ['Analyse temporelle', 'Cartographie flux', 'Indicateurs'],
+                        exemples: ['Baromètre vélo', 'Observatoire piétons centre-ville']
+                    }
+                },
+                accompagnement: {
+                    level: 'high',
+                    title: 'Promotion modes actifs',
+                    examples: 'Plans de mobilité, communication',
+                    details: {
+                        description: 'Incitation au changement de pratiques',
+                        donnees: ['Enquêtes comportements', 'Retours expérimentations', 'Best practices'],
+                        methodologies: ['Plans de mobilité', 'Nudge', 'Gamification'],
+                        exemples: ['Challenge mobilité', 'Vélo-école entreprise']
+                    }
+                },
+                recueil: {
+                    level: 'high',
+                    title: 'Données traces vélo',
+                    examples: 'GPS, compteurs, applications',
+                    details: {
+                        description: 'Collecte données spatiotemporelles',
+                        donnees: ['Traces GPS vélo', 'Eco-compteurs', 'API Geovelo/Strava'],
+                        methodologies: ['Traitement traces', 'Map-matching', 'Agrégation flux'],
+                        exemples: ['Partenariat Geovelo', 'Réseau de 50 compteurs']
+                    }
+                }
+            },
+            'vehicule-routier': {
+                name: 'Véhicule routier',
+                modelisation: {
+                    level: 'high',
+                    title: 'Modèles de trafic routier',
+                    examples: 'Affectation trafic, microsimulation',
+                    details: {
+                        description: 'Simulation des flux automobiles',
+                        donnees: ['Matrices OD', 'Comptages routiers', 'Données FCD'],
+                        methodologies: ['Affectation trafic', 'Microsimulation (Aimsun, Vissim)', 'Modèles dynamiques'],
+                        exemples: ['Étude giratoire', 'Simulation autoroute']
+                    }
+                },
+                planification: {
+                    level: 'medium',
+                    title: 'Hiérarchisation voirie',
+                    examples: 'Schémas directeurs routiers',
+                    details: {
+                        description: 'Organisation du réseau routier',
+                        donnees: ['Hiérarchie voirie', 'Générateurs trafic', 'Plans de circulation'],
+                        methodologies: ['Classification fonctionnelle', 'Optimisation réseau', 'Scénarisation'],
+                        exemples: ['Plan de circulation', 'Contournement urbain']
+                    }
+                },
+                'mise-oeuvre': {
+                    level: 'high',
+                    title: 'Gestion trafic',
+                    examples: 'Régulation, feux, ITS',
+                    details: {
+                        description: 'Exploitation et optimisation du réseau',
+                        donnees: ['Boucles de détection', 'Caméras', 'FCD temps réel'],
+                        methodologies: ['Régulation feux', 'Gestion incidents', 'Information usagers'],
+                        exemples: ['PC de régulation trafic', 'Application info trafic']
+                    }
+                },
+                evaluation: {
+                    level: 'medium',
+                    title: 'Performance réseau',
+                    examples: 'Congestion, temps de parcours',
+                    details: {
+                        description: 'Analyse de la qualité de circulation',
+                        donnees: ['FCD', 'Temps de parcours', 'Niveaux de service'],
+                        methodologies: ['Indicateurs congestion', 'Cartographie vitesses', 'Benchmarking'],
+                        exemples: ['Rapport annuel trafic', 'Identification points noirs']
+                    }
+                },
+                observation: {
+                    level: 'high',
+                    title: 'Comptages routiers',
+                    examples: 'Observatoires trafic',
+                    details: {
+                        description: 'Suivi permanent des flux',
+                        donnees: ['Stations permanentes', 'Campagnes temporaires', 'FCD agrégées'],
+                        methodologies: ['Analyse temporelle', 'Détection tendances', 'Prévision'],
+                        exemples: ['Observatoire départemental', 'Bilan trafic annuel']
+                    }
+                },
+                accompagnement: {
+                    level: 'low',
+                    title: 'Études circulation',
+                    examples: 'Expertises voirie',
+                    details: {
+                        description: 'Support technique circulation',
+                        donnees: ['Diagnostics terrain', 'Comptages ponctuels', 'Accidentologie'],
+                        methodologies: ['Audit sécurité', 'Études carrefours', 'Capacité voirie'],
+                        exemples: ['Expertise carrefour dangereux', 'AMO projet routier']
+                    }
+                },
+                recueil: {
+                    level: 'medium',
+                    title: 'Collecte données trafic',
+                    examples: 'Comptages, FCD, radar',
+                    details: {
+                        description: 'Acquisition données circulation',
+                        donnees: ['Tubes compteurs', 'FCD opérateurs', 'Vidéo-détection'],
+                        methodologies: ['Protocoles comptage', 'Traitement FCD', 'Validation qualité'],
+                        exemples: ['Campagne annuelle comptages', 'Partenariat Here/TomTom']
+                    }
+                }
+            },
+            'marchandises': {
+                name: 'Transport de marchandises',
+                modelisation: {
+                    level: 'medium',
+                    title: 'Modèles fret',
+                    examples: 'Flux logistiques, dernier km',
+                    details: {
+                        description: 'Modélisation des chaînes logistiques',
+                        donnees: ['Enquêtes transport marchandises', 'Données logistiques', 'Flux routiers PL'],
+                        methodologies: ['Modèles génération-distribution', 'Optimisation tournées', 'Chaînes logistiques'],
+                        exemples: ['Modèle fret urbain', 'Optimisation livraisons']
+                    }
+                },
+                planification: {
+                    level: 'medium',
+                    title: 'Logistique urbaine',
+                    examples: 'Schémas marchandises en ville',
+                    details: {
+                        description: 'Planification de la logistique urbaine',
+                        donnees: ['Aires de livraison', 'Flux PL', 'Enquêtes établissements'],
+                        methodologies: ['Diagnostic logistique', 'Zonage livraisons', 'Plans d\'action'],
+                        exemples: ['Charte logistique', 'Espaces de consolidation']
+                    }
+                },
+                'mise-oeuvre': {
+                    level: 'medium',
+                    title: 'Solutions logistiques',
+                    examples: 'ELU, consignes, régulation',
+                    details: {
+                        description: 'Déploiement d\'équipements et services',
+                        donnees: ['Besoins établissements', 'Trafic PL', 'Foncier disponible'],
+                        methodologies: ['Faisabilité ELU', 'Dimensionnement', 'Modèle économique'],
+                        exemples: ['Espace logistique urbain', 'Réseau de consignes']
+                    }
+                },
+                evaluation: {
+                    level: 'low',
+                    title: 'Impact marchandises',
+                    examples: 'Émissions, congestion PL',
+                    details: {
+                        description: 'Évaluation des impacts du fret',
+                        donnees: ['Flux PL', 'Émissions', 'Enquêtes livreurs'],
+                        methodologies: ['Bilan carbone', 'Analyse nuisances', 'Coûts externes'],
+                        exemples: ['Bilan environnemental', 'Étude ZFE marchandises']
+                    }
+                },
+                observation: {
+                    level: 'medium',
+                    title: 'Suivi trafic PL',
+                    examples: 'Comptages poids-lourds',
+                    details: {
+                        description: 'Observation des flux de marchandises',
+                        donnees: ['Comptages PL', 'FCD flottes', 'Péages'],
+                        methodologies: ['Distinction VL/PL', 'Analyse temporelle', 'Cartographie flux'],
+                        exemples: ['Observatoire fret régional', 'Suivi transit PL']
+                    }
+                },
+                accompagnement: {
+                    level: 'medium',
+                    title: 'Conseil logistique',
+                    examples: 'Plans marchandises entreprises',
+                    details: {
+                        description: 'Accompagnement acteurs logistiques',
+                        donnees: ['Benchmarks', 'Retours d\'expérience', 'Réglementations'],
+                        methodologies: ['Diagnostics chaînes logistiques', 'Plans d\'action', 'Formation'],
+                        exemples: ['Plan mobilité marchandises', 'Accompagnement e-commerce']
+                    }
+                },
+                recueil: {
+                    level: 'low',
+                    title: 'Enquêtes marchandises',
+                    examples: 'Enquêtes établissements, TMV',
+                    details: {
+                        description: 'Collecte données spécifiques fret',
+                        donnees: ['Enquêtes livraisons', 'Tracking flottes', 'Entretiens acteurs'],
+                        methodologies: ['Protocoles TMV', 'Enquêtes qualitatives', 'Exploitation données privées'],
+                        exemples: ['Enquête transport marchandises en ville', 'Enquête besoins logistiques']
+                    }
+                }
+            }
+        };
+
+        function generateTable() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = '';
+
+            for (const [metierKey, metierData] of Object.entries(typologieData)) {
+                const row = document.createElement('tr');
+                row.dataset.metier = metierKey;
+
+                const metierCell = document.createElement('td');
+                metierCell.textContent = metierData.name;
+                row.appendChild(metierCell);
+
+                const categories = ['modelisation', 'planification', 'mise-oeuvre', 'evaluation', 'observation', 'accompagnement', 'recueil'];
+                categories.forEach(cat => {
+                    const td = document.createElement('td');
+                    const cellData = metierData[cat];
+                    
+                    if (cellData) {
+                        const cellDiv = document.createElement('div');
+                        cellDiv.className = `cell level-${cellData.level}`;
+                        cellDiv.dataset.category = cat;
+                        cellDiv.dataset.metier = metierKey;
+                        
+                        cellDiv.innerHTML = `
+                            <div class="cell-title">${cellData.title}</div>
+                            <div class="cell-examples">${cellData.examples}</div>
+                        `;
+                        
+                        cellDiv.onclick = () => showDetails(metierData.name, cat, cellData);
+                        td.appendChild(cellDiv);
+                    }
+                    
+                    row.appendChild(td);
+                });
+
+                tbody.appendChild(row);
+            }
+        }
+
+        function showDetails(metier, categorie, data) {
+            const modal = document.getElementById('detail-modal');
+            const title = document.getElementById('modal-title');
+            const body = document.getElementById('modal-body');
+
+            const categorieNames = {
+                'modelisation': 'Modélisation',
+                'planification': 'Planification',
+                'mise-oeuvre': 'Mise en œuvre',
+                'evaluation': 'Évaluation',
+                'observation': 'Observation',
+                'accompagnement': 'Accompagnement',
+                'recueil': 'Recueil de données'
+            };
+
+            title.textContent = `${metier} – ${categorieNames[categorie]}`;
+
+            let detailsHTML = `<p style="color: #666; margin-bottom: 20px; font-size: 1.05em;"><strong>${data.title}</strong></p>`;
+
+            if (data.details) {
+                detailsHTML += `
+                    <div class="modal-section">
+                        <h4>Description</h4>
+                        <p>${data.details.description}</p>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h4>Données utilisées</h4>
+                        <ul>
+                            ${data.details.donnees.map(d => `<li>${d}</li>`).join('')}
+                        </ul>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h4>Méthodologies</h4>
+                        <ul>
+                            ${data.details.methodologies.map(m => `<li>${m}</li>`).join('')}
+                        </ul>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h4>Exemples concrets</h4>
+                        <ul>
+                            ${data.details.exemples.map(e => `<li>${e}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            body.innerHTML = detailsHTML;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('detail-modal').classList.remove('active');
+        }
+
+        document.getElementById('metier-filter').addEventListener('change', function() {
+            const selectedMetier = this.value;
+            const rows = document.querySelectorAll('#table-body tr');
+
+            rows.forEach(row => {
+                if (selectedMetier === 'all' || row.dataset.metier === selectedMetier) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        document.getElementById('categorie-filter').addEventListener('change', function() {
+            const selectedCategorie = this.value;
+            const cells = document.querySelectorAll('.cell');
+            const headers = document.querySelectorAll('th[data-category]');
+
+            if (selectedCategorie === 'all') {
+                cells.forEach(cell => cell.style.display = '');
+                headers.forEach(header => header.style.display = '');
+            } else {
+                cells.forEach(cell => {
+                    if (cell.dataset.category === selectedCategorie) {
+                        cell.style.display = '';
+                    } else {
+                        cell.style.display = 'none';
+                    }
+                });
+                
+                headers.forEach(header => {
+                    if (header.dataset.category === selectedCategorie) {
+                        header.style.display = '';
+                    } else {
+                        header.style.display = 'none';
+                    }
+                });
+            }
+        });
+
+        document.getElementById('detail-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        generateTable();
+    </script>
+</body>
+</html>
