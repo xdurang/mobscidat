@@ -52,8 +52,6 @@ La typologie couvre :
 
 **Version** : 1.0  
 **Date** : Octobre 2025  
-**Auteur** : Cerema - Direction Mobilité
+**Auteur** : Cerema
 
 ---
-
-Pour toute question : contact@cerema.fr
